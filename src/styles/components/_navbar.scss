@@ -1,0 +1,89 @@
+
+
+/*---------------------
+HEADER CSS START
+---------------------*/
+.header-container {
+  display: flex;
+	background: $header-background;
+	flex-direction: column;
+  border: 1px solid #7e7e7e;
+	min-width: 1011px;
+}
+
+.head-col1-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header-image {
+  //flex-grow: 1;
+	display: flex;
+	align-items: center;
+}
+
+.header-image img {
+  margin-left: 20px;
+	margin-right: 20px;
+}
+
+.header-search {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-search input {
+  margin: 0;
+  width: 250px;
+}
+
+.head-col2-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+}
+
+.header-menu {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  margin:0;
+  margin-left: 5px;
+  padding: 0;
+  flex-grow: 1;
+}
+.header-menu-left  {
+  justify-content: flex-start;
+}
+
+.header-menu-right  {
+	justify-content: flex-end;
+}
+
+
+.header-menu li {
+  padding: 0 10px;
+  border-bottom: 2px solid rgba(252, 127, 3, 0); /*transparent border so that hover doesn't push text up*/
+}
+
+.header-menu li a {
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+.header-menu li:hover {
+  border-bottom: 2px solid black;
+}
+
+
+
+/*---------------------
+HEADER CSS END
+---------------------*/

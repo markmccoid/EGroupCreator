@@ -1,0 +1,31 @@
+// colors
+$grey: #333333;
+$light-grey: #fafafa;
+$light-grey-border: #eeeeee;
+$border: #bdbdbd;
+$light-color: #aaa;
+
+// Border Radius
+$border-radius: 5px;
+
+//Background Colors
+$application-background: #FFF; //eee
+$header-background: linear-gradient(to bottom, #dbe7d0 1%,#e9eae8 100%); //rgba(#dbe7d0, 0.50); //old - ccc
+$main-background: #E1E1E1;
+$side-menu-background: rgba(#dbe7d0, 0.50); //old - #d9d9d9
+$menu-item-background: #FFF;
+$link-selected-background: #6EAF4B;
+$link-hover-background: #508232;
+
+
+//Font Colors
+$link-hover-color: white;
+$link-menu-color: black;
+$link-menu-color-selected: white;
+
+//Font Sizes
+$side-menu-font-size: 1.2em;
+
+//Card Colors
+$card-main-background: linear-gradient(to bottom, #dbe7d0 1%,#e9eae8 100%); //#f5f5f5;
+$sortable-handle-background: #a2a2a2 url("/images/3dots.png") no-repeat center;

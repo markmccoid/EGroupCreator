@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import { Router } from 'react-router-dom';
 
-//import Main from './components/Main';
+import Main from './components/Main';
 
 
 
@@ -14,26 +16,24 @@ import ReactDOM from 'react-dom';
 //-------------------------------------------------------
 
 //app scss - webpack will create a sass-styles.css file in pubic directory
-//require('./styles/app.scss');
+require('./styles/app.scss');
 
 //--This creates the store that will be passed to the Provider component
-//var store = require('./store/configureStore').configure();
+var store = require('./store/configureStore').configure();
 
 //--Ant Design css load
 // require('/antd/dist/antd.min.css');
 
 //path="/" designates the root of the application
-// ReactDOM.render(
-// 	<Provider store={store}>
-// 		<Router>
-// 			<Main/>
-// 		</Router>
-// 	</Provider>,
-//   document.getElementById('app')
-// );
-//Old ReactDom render method without routing
-
 ReactDOM.render(
-  <h1>Boilerplate app!  </h1>,
+	<Provider store={store}>
+			<Main/>
+	</Provider>,
   document.getElementById('app')
 );
+//Old ReactDom render method without routing
+
+// ReactDOM.render(
+//   <h1>Boilerplate app!  </h1>,
+//   document.getElementById('app')
+// );

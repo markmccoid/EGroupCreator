@@ -1,0 +1,69 @@
+/*---------------------
+CONTENT CSS START
+---------------------*/
+.content-container {
+  display: flex;
+  flex-direction: row;
+  border-left: 1px solid #7e7e7e;
+  border-right: 1px solid #7e7e7e;
+  border-bottom: 1px solid #7e7e7e;
+	min-width: 1011px;
+}
+
+//--Left Navigation Panel CSS
+.content-nav {
+  flex: 0 0 12em;
+  background: $side-menu-background;
+  order: -1;
+}
+
+.content-nav ul {
+  list-style-type: none;
+  margin:0; padding:0;
+	background-color: $menu-item-background;
+}
+.content-nav li {
+    border-bottom: 1px solid #7e7e7e;
+		font-size: $side-menu-font-size;
+}
+.content-nav li:nth-child(1) {
+  border-top: 1px solid #7e7e7e;
+}
+.content-nav li:last-child {
+  margin-bottom: 0px; //Choosing not to set margin cause it causes issues if you color background
+}
+.content-nav li a {
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+	color: $link-menu-color;
+
+}
+.content-nav li a:hover {
+  background-color: $link-hover-background;
+  color: $link-hover-color;
+}
+
+//--Right Content Body CSS
+.content-body {
+	display: flex;
+  flex-wrap: wrap;
+	justify-content: space-between;
+  border-left: 1px solid #7e7e7e;
+  padding: 5px 10px;
+	width: 100%;
+	background-color: $main-background;
+}
+
+.content-right {
+  display: none;
+  flex: 0 0 12em;
+  border-radius: 3px;
+  background: rgba(147, 128, 108, 0.1);
+}
+
+
+
+/*---------------------
+CONTENT CSS END
+---------------------*/
