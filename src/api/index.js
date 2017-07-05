@@ -1,6 +1,8 @@
 import axios from 'axios';
 import _ from 'lodash';
 import moment from 'moment';
+// const electron = require('electron');
+// const { ipcRenderer } = electron;
 
 export const createEmptyGroupObj = (appName, user) => {
 	return {
@@ -14,9 +16,14 @@ export const createEmptyGroupObj = (appName, user) => {
 	};
 };
 
-export const getApplicationNames = () => {
+export const getApplicationNamesOLD = () => {
 	return axios.get('/api/groups/app')
 		.then(response => response.data)
+};
+//electron ipc message send
+export const requestApplicationNames = () => {
+	//ipcRenderer.send('getAppNames');
+	return null;
 };
 
 //Get qvGroups.json information from server
