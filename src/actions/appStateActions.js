@@ -7,6 +7,7 @@ import { LOAD_APPLICATION_LIST,
 
 //-----------------------------------------------
 export const loadApplicationList = (appList) => {
+	console.log('in action', appList)
 	return {
 		type: LOAD_APPLICATION_LIST,
 		appList

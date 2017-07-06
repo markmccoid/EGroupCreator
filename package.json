@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "electron": "cross-env NODE_ENV=development electron .",
+    "electronhome": "cross-env NODE_ENV=dev-home electron .",
     "dev": "set NODE_ENV=development",
     "electrondev": "electron ."
   },
@@ -29,6 +30,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.0.1",
     "css-loader": "^0.28.4",
     "express": "^4.15.3",
     "file-loader": "^0.11.2",

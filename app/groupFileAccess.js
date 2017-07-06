@@ -15,6 +15,7 @@ const readAppNames = () => {
 	//the _(value) usage of lodash is a feature allowing us to wrap the value and enable implicitmethod chain sequences.
 	//let applicationList = _(qvGroups.map(groupObj => groupObj.application)).uniq().sortBy();
 	let applicationList = _.uniq(qvGroups.map(groupObj => groupObj.application));
+	applicationList = _.sortBy(applicationList);
 	//console.log(applicationList)
 	return applicationList;
 };

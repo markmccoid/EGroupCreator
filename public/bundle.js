@@ -45906,10 +45906,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //-------------------------------------------------------
 
 //app scss - webpack will create a sass-styles.css file in pubic directory
-__webpack_require__(415);
+__webpack_require__(413);
 
 //--This creates the store that will be passed to the Provider component
-var store = __webpack_require__(416).configure();
+var store = __webpack_require__(414).configure();
 
 //--Ant Design css load
 // require('/antd/dist/antd.min.css');
@@ -59253,6 +59253,10 @@ var _Navbar = __webpack_require__(389);
 
 var _Navbar2 = _interopRequireDefault(_Navbar);
 
+var _MainDisplay = __webpack_require__(427);
+
+var _MainDisplay2 = _interopRequireDefault(_MainDisplay);
+
 var _actions = __webpack_require__(40);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -59268,7 +59272,6 @@ var _window$require = window.require('electron'),
 
 //Import Components
 
-// import MainDisplay from './MainDisplay';
 // import ExportContainer from './export/ExportContainer';
 // import SettingsContainer from './settings/SettingsContainer';
 
@@ -59314,7 +59317,8 @@ var Main = function Main(props) {
 	return _react2.default.createElement(
 		'div',
 		null,
-		_react2.default.createElement(_Navbar2.default, { user: props.user })
+		_react2.default.createElement(_Navbar2.default, { user: props.user }),
+		_react2.default.createElement(_MainDisplay2.default, null)
 	);
 };
 
@@ -61642,6 +61646,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 //-----------------------------------------------
 var loadApplicationList = exports.loadApplicationList = function loadApplicationList(appList) {
+	console.log('in action', appList);
 	return {
 		type: _actionTypes.LOAD_APPLICATION_LIST,
 		appList: appList
@@ -62966,15 +62971,13 @@ var startLoadAnalytixFields = exports.startLoadAnalytixFields = function startLo
 };
 
 /***/ }),
-/* 413 */,
-/* 414 */,
-/* 415 */
+/* 413 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 416 */
+/* 414 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62987,13 +62990,13 @@ exports.configure = undefined;
 
 var _redux = __webpack_require__(106);
 
-var _reduxThunk = __webpack_require__(417);
+var _reduxThunk = __webpack_require__(415);
 
 var _reduxThunk2 = _interopRequireDefault(_reduxThunk);
 
-var _reducers = __webpack_require__(418);
+var _reducers = __webpack_require__(416);
 
-var _reduxFreeze = __webpack_require__(422);
+var _reduxFreeze = __webpack_require__(420);
 
 var _reduxFreeze2 = _interopRequireDefault(_reduxFreeze);
 
@@ -63049,7 +63052,7 @@ var configure = exports.configure = function configure() {
 // )
 
 /***/ }),
-/* 417 */
+/* 415 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63078,7 +63081,7 @@ thunk.withExtraArgument = createThunkMiddleware;
 exports['default'] = thunk;
 
 /***/ }),
-/* 418 */
+/* 416 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63088,7 +63091,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _appStateReducer = __webpack_require__(419);
+var _appStateReducer = __webpack_require__(417);
 
 Object.keys(_appStateReducer).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -63100,7 +63103,7 @@ Object.keys(_appStateReducer).forEach(function (key) {
   });
 });
 
-var _groupsReducer = __webpack_require__(420);
+var _groupsReducer = __webpack_require__(418);
 
 Object.keys(_groupsReducer).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -63112,7 +63115,7 @@ Object.keys(_groupsReducer).forEach(function (key) {
   });
 });
 
-var _groupFieldsReducer = __webpack_require__(421);
+var _groupFieldsReducer = __webpack_require__(419);
 
 Object.keys(_groupFieldsReducer).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -63125,7 +63128,7 @@ Object.keys(_groupFieldsReducer).forEach(function (key) {
 });
 
 /***/ }),
-/* 419 */
+/* 417 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63172,7 +63175,7 @@ var appStateReducer = exports.appStateReducer = function appStateReducer() {
 };
 
 /***/ }),
-/* 420 */
+/* 418 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63220,7 +63223,7 @@ var groupsReducer = exports.groupsReducer = function groupsReducer() {
 };
 
 /***/ }),
-/* 421 */
+/* 419 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63257,7 +63260,7 @@ var groupFieldsReducer = exports.groupFieldsReducer = function groupFieldsReduce
 };
 
 /***/ }),
-/* 422 */
+/* 420 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63270,7 +63273,7 @@ exports['default'] = freeze;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-var _deepFreezeStrict = __webpack_require__(423);
+var _deepFreezeStrict = __webpack_require__(421);
 
 var _deepFreezeStrict2 = _interopRequireDefault(_deepFreezeStrict);
 
@@ -63304,7 +63307,7 @@ function isFreezable(value) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 423 */
+/* 421 */
 /***/ (function(module, exports) {
 
 module.exports = function deepFreeze (o) {
@@ -63326,6 +63329,221 @@ module.exports = function deepFreeze (o) {
   return o;
 };
 
+
+/***/ }),
+/* 422 */,
+/* 423 */,
+/* 424 */,
+/* 425 */,
+/* 426 */,
+/* 427 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(7);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRedux = __webpack_require__(102);
+
+var _lodash = __webpack_require__(122);
+
+var _lodash2 = _interopRequireDefault(_lodash);
+
+var _api = __webpack_require__(68);
+
+var _AppSidebar = __webpack_require__(428);
+
+var _AppSidebar2 = _interopRequireDefault(_AppSidebar);
+
+var _actions = __webpack_require__(40);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var _window$require = window.require('electron'),
+    ipcRenderer = _window$require.ipcRenderer;
+//import GroupCreator from './GroupCreator';
+
+var MainDisplay = function (_React$Component) {
+	_inherits(MainDisplay, _React$Component);
+
+	function MainDisplay(props) {
+		_classCallCheck(this, MainDisplay);
+
+		var _this = _possibleConstructorReturn(this, (MainDisplay.__proto__ || Object.getPrototypeOf(MainDisplay)).call(this, props));
+
+		_this.handleLoadApplication = function (appName) {
+			//call action to update redux store with clicked on application
+			_this.props.setSelectedApplication(appName);
+		};
+
+		return _this;
+	}
+
+	_createClass(MainDisplay, [{
+		key: 'componentDidMount',
+		value: function componentDidMount() {
+			var _this2 = this;
+
+			//dispatch action to get the unique application names stored in qvGroups.json
+			//this.props.getApplicationNames();
+			ipcRenderer.send('request:AppNames');
+			ipcRenderer.on('response:AppNames', function (event, data) {
+				_this2.props.loadApplicationList(data);
+			});
+		}
+		// componentWillReceiveProps(nextProps) {
+		// 	//When component reloads, check location pathname and if we are back to the root
+		// 	//clear the application name as we should be back to no application selected.
+		//     if (nextProps.location.pathname === '/') {
+		//       this.props.setSelectedApplication('');
+		//     }
+		//}
+
+	}, {
+		key: 'render',
+		value: function render() {
+			var selectedApplication = this.props.selectedApplication || '';
+			return _react2.default.createElement(
+				'div',
+				{ className: 'content-container' },
+				_react2.default.createElement(
+					'nav',
+					{ className: 'content-nav' },
+					_react2.default.createElement(
+						'h5',
+						{ style: { textAlign: "center" } },
+						'Applications'
+					),
+					_react2.default.createElement(_AppSidebar2.default, {
+						applicationList: this.props.applicationList,
+						onLoadApplication: this.handleLoadApplication
+					})
+				),
+				_react2.default.createElement(
+					'main',
+					{ className: 'content-body' },
+					selectedApplication ? null : _react2.default.createElement(
+						'h2',
+						null,
+						'Select an Application'
+					)
+				)
+			);
+		}
+	}]);
+
+	return MainDisplay;
+}(_react2.default.Component);
+
+;
+
+var mapStateToProps = function mapStateToProps(state) {
+	return {
+		user: state.applications.user,
+		applicationList: state.applications.applicationList || [],
+		selectedApplication: state.applications.selectedApplication || ''
+	};
+};
+
+// const mapDispatchToProps = dispatch => {
+// 	return {
+// 		onSaveItem(uid, itemObj) {
+// 			dispatch(startSaveItem(uid, itemObj));
+// 		}
+// 	};
+// };
+
+exports.default = (0, _reactRedux.connect)(mapStateToProps, {
+	getApplicationNames: _actions.startLoadApplicationList,
+	loadApplicationList: _actions.loadApplicationList,
+	setSelectedApplication: _actions.setSelectedApplication,
+	addGroup: _actions.startAddGroup
+})(MainDisplay);
+
+// <GroupCreator
+// 	selectedApplication={this.props.selectedApplication}
+// />
+
+/***/ }),
+/* 428 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _react = __webpack_require__(7);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(9);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var AppSidebar = function AppSidebar(props) {
+	console.log('appsidebar', props);
+	return _react2.default.createElement(
+		'ul',
+		{ className: 'content-nav-menu' },
+		props.applicationList.map(function (appName) {
+			return _react2.default.createElement(
+				'li',
+				{ key: appName },
+				_react2.default.createElement(
+					'a',
+					{ onClick: function onClick() {
+							return props.onLoadApplication(appName);
+						} },
+					appName
+				)
+			);
+		})
+	);
+};
+
+AppSidebar.propType = {
+	applicationList: _propTypes2.default.array,
+	onLoadApplication: _propTypes2.default.func
+};
+
+exports.default = AppSidebar;
+
+// const AppSidebar = (props) => {
+//
+// 	return (
+// 		<ul>
+// 			{props.applicationList.map(appName => {
+// 				return (
+// 					<li key={appName}>
+// 						<a onClick={() => {
+// 								props.onLoadApplication(appName);
+// 							}}>{appName}</a>
+// 					</li>
+// 				)
+// 			})}
+// 		</ul>
+// 	)
+// };
 
 /***/ })
 /******/ ]);

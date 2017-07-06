@@ -23456,3 +23456,68 @@ HEADER CSS START
 /*---------------------
 HEADER CSS END
 ---------------------*/
+/*---------------------
+CONTENT CSS START
+---------------------*/
+.content-container {
+  display: flex;
+  flex-direction: row;
+  border-left: 1px solid #7e7e7e;
+  border-right: 1px solid #7e7e7e;
+  border-bottom: 1px solid #7e7e7e;
+  min-width: 1011px; }
+
+.content-nav {
+  flex: 0 0 12em;
+  background: rgba(219, 231, 208, 0.5);
+  order: -1; }
+
+.content-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF; }
+
+.content-nav li {
+  border-bottom: 1px solid #7e7e7e;
+  font-size: 1.2em; }
+
+.content-nav li:nth-child(1) {
+  border-top: 1px solid #7e7e7e; }
+
+.content-nav li:last-child {
+  margin-bottom: 0px; }
+
+.content-nav li a {
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  color: black; }
+
+.content-nav li a:hover {
+  background-color: #508232;
+  color: white; }
+
+.content-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-left: 1px solid #7e7e7e;
+  padding: 5px 10px;
+  width: 100%;
+  background-color: #E1E1E1; }
+
+.content-right {
+  display: none;
+  flex: 0 0 12em;
+  border-radius: 3px;
+  background: rgba(147, 128, 108, 0.1); }
+
+/*---------------------
+CONTENT CSS END
+---------------------*/
+.content-nav-menu .selected {
+  background-color: #6EAF4B;
+  color: white;
+  font-weight: bold;
+  text-decoration: none; }

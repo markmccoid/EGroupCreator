@@ -6,7 +6,7 @@ const { ipcRenderer }  = window.require('electron');
 
 //Import Components
 import Navbar from './Navbar';
-// import MainDisplay from './MainDisplay';
+import MainDisplay from './MainDisplay';
 // import ExportContainer from './export/ExportContainer';
 // import SettingsContainer from './settings/SettingsContainer';
 
@@ -38,6 +38,7 @@ const Main = (props) => {
 	return (
 		<div>
 			<Navbar user={props.user}/>
+			<MainDisplay />
 			{/*
 			<Switch>
 				<Route path="/settings" component={ClearAppStateHOC(SettingsContainer, props.dispatch)} />
