@@ -1,8 +1,8 @@
 import axios from 'axios';
 import _ from 'lodash';
 import moment from 'moment';
-// const electron = require('electron');
-// const { ipcRenderer } = electron;
+const groupFileAccess = window.require('../app/groupFileAccess');
+
 
 export const createEmptyGroupObj = (appName, user) => {
 	return {
@@ -20,15 +20,14 @@ export const getApplicationNamesOLD = () => {
 	return axios.get('/api/groups/app')
 		.then(response => response.data)
 };
-//electron ipc message send
-export const requestApplicationNames = () => {
-	//ipcRenderer.send('getAppNames');
-	return null;
+//call the read app name function on the main electron process
+export const getApplicationNames = () => {
+	return groupFileAccess.readAppNamesAsync();
 };
 
 //Get qvGroups.json information from server
 const getGroups = appName => {
-	return axios.get(`/api/groups/app/${appName}`)
+	return groupFileAccess.readGroupsForApp(appName)
 		.then(response => response.data);
 };
 

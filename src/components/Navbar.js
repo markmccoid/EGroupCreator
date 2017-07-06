@@ -22,13 +22,13 @@ var Navbar = (props) => {
 			<div className="head-col2-container">
 				<ul className="header-menu header-menu-left">
 					<li>
-						<a exact to="/" activeClassName="active">Home</a>
+						<a>Home</a>
 					</li>
 		      <li>
-						<a to="/settings" activeClassName="active">Settings</a>
+						<a>Settings</a>
 					</li>
 					<li>
-						<a to="/export" activeClassName="active">Export</a>
+						<a>Export</a>
 					</li>
 				</ul>
 

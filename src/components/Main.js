@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Route, Switch, withRouter } from 'react-router-dom';
 const { ipcRenderer }  = window.require('electron');
+const gfa = window.require('../app/groupFileAccess');
 
 
 //Import Components
@@ -30,11 +31,13 @@ const ClearAppStateHOC = (WrappedComp, dispatch) => {
 
 
 const Main = (props) => {
-	 ipcRenderer.send('request:AppNames');
-	 ipcRenderer.on('response:AppNames', (event, data) => {
-		 console.log(event);
-		 console.log(data);
-	 });
+	 gfa.readAppNamesAsync()
+	 	.then(data => console.log('async return: ', data));
+	//  ipcRenderer.send('request:AppNames');
+	//  ipcRenderer.on('response:AppNames', (event, data) => {
+	// 	 console.log(event);
+	// 	 console.log(data);
+	//  });
 	return (
 		<div>
 			<Navbar user={props.user}/>

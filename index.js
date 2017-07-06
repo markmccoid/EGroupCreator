@@ -27,7 +27,11 @@ console.log(process.env.NODE_ENV);
 
 ipcMain.on('request:AppNames', () => {
 	console.log('request:AppNames received');
-	mainWindow.webContents.send('response:AppNames', groupFileAccess.readAppNames());
+	groupFileAccess.readAppNamesAsync()
+		.then(data => {
+			mainWindow.webContents.send('response:AppNames', data);
+		})
+	//mainWindow.webContents.send('response:AppNames', groupFileAccess.readAppNames());
 	// fs.readFile(GROUPS_FILE, (err, data) => {
 	// 	console.log(data);
 	// 	mainWindow.webContents.send('response:AppNames', JSON.parse(data));

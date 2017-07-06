@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const AppSidebar = (props) => {
-console.log('appsidebar', props);
 	return (
 		<ul className="content-nav-menu">
 			{props.applicationList.map(appName => {
 				return (
 					<li key={appName}>
-						<a onClick={() => props.onLoadApplication(appName)}>
+						<a className={appName === props.selectedApplication ? 'selected' : ''}
+							 onClick={() => props.onLoadApplication(appName)}>
 							{appName}
 						</a>
 					</li>
@@ -20,7 +20,8 @@ console.log('appsidebar', props);
 
 AppSidebar.propType = {
 	applicationList: PropTypes.array,
-	onLoadApplication: PropTypes.func
+	onLoadApplication: PropTypes.func,
+	selectedApplication: PropTypes.string
 };
 
 export default AppSidebar;

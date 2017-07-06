@@ -8,10 +8,10 @@ import AppSidebar from './AppSidebar';
 //import GroupCreator from './GroupCreator';
 
 import { startLoadApplicationList,
-         loadApplicationList,
  				 setSelectedApplication,
 				 startAddGroup
 			 } from '../actions';
+import GroupCreator from './GroupCreator';
 
 class MainDisplay extends React.Component {
 	constructor(props) {
@@ -20,11 +20,11 @@ class MainDisplay extends React.Component {
 
 	componentDidMount() {
 		//dispatch action to get the unique application names stored in qvGroups.json
-		//this.props.getApplicationNames();
-    ipcRenderer.send('request:AppNames');
-    ipcRenderer.on('response:AppNames', (event, data) => {
-      this.props.loadApplicationList(data);
-	 });
+		this.props.getApplicationNames();
+  //   ipcRenderer.send('request:AppNames');
+  //   ipcRenderer.on('response:AppNames', (event, data) => {
+  //     this.props.loadApplicationList(data);
+	//  });
  }
   // componentWillReceiveProps(nextProps) {
 	// 	//When component reloads, check location pathname and if we are back to the root
@@ -48,11 +48,14 @@ class MainDisplay extends React.Component {
 					<AppSidebar
 						applicationList={this.props.applicationList}
 						onLoadApplication={this.handleLoadApplication}
+						selectedApplication={selectedApplication}
 					/>
 				</nav>
 				<main className="content-body">
 						{selectedApplication ? null : <h2>Select an Application</h2>  }
-
+					<GroupCreator
+						selectedApplication={selectedApplication}
+					/>
 						{/*<Route path="/app/:appName" component={GroupCreator} />*/}
 				</main>
 			</div>
@@ -78,7 +81,6 @@ const mapStateToProps = (state) => {
 
 export default connect(mapStateToProps, {
 	getApplicationNames: startLoadApplicationList,
-  loadApplicationList: loadApplicationList,
 	setSelectedApplication: setSelectedApplication,
 	addGroup: startAddGroup
 })(MainDisplay);
