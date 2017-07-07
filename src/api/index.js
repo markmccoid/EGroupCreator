@@ -28,7 +28,7 @@ export const getApplicationNames = () => {
 //Get qvGroups.json information from server
 const getGroups = appName => {
 	return groupFileAccess.readGroupsForApp(appName)
-		.then(response => response.data);
+		.then(data => data);
 };
 
 //Get the group data from qvGroups.json, but do not return the field information
@@ -109,9 +109,9 @@ export const updateGroup = groupObj => {
 };
 //returns an object containing the fields for the passed appName
 export const getAnalytixFields = appName => {
-	return axios.get(`/api/analytixfields/${appName}`)
-		.then(response => response.data);
-}
+	return groupFileAccess.readAnalytixFields(appName)
+		.then(analytixFields => analytixFields);
+};
 
 //--Add a new group to the qvGroups.json file
 export const addGroup = groupObj => {

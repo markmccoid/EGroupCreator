@@ -1,0 +1,7892 @@
+[
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "COLOR_PREPRINT"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "LOCATION_PREPRINT"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "NUMBOLDLINES"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "NUMBOLDWORDS"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "NUMCENTEREDLINES"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "NUMEMAILADDRESS"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "NUMGRAPHICS"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "NUMITALICLINES"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "NUMITALICWORDS"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "NUMRULES"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "NUMUNDERLINEDWORDS"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "NUMUNDERLINELINES"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "NUMURL"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "PAGECOUNT_PREPRINT"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "PAPER_PREPRINT"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "SIDES_PREPRINT"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "TOTALGRAPHICDEPTH"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdContent",
+    "field": "WEIGHT_PREPRINT"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "~COUNTER_AdOrder"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "~TOTAL_Insertions"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "AdOrder_GrossAmount"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "AdOrder_NetAmount"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "ADORDERID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "AdOrderNumber"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "EXPIREDATE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "FirstRunDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "JOINTADNUMBER"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "KILLDATE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "LastRunDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "MAPPED_LASTINSERT_DATE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "MULTISELLERS"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "OrderStatus"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "OrderstatusDescription"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "ORDERSTATUSID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "ORIGINALPRICEQUOTE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "PONumber"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "REPID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdOrders",
+    "field": "SELLERID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "AdCategory"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "AdSubType"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "AdTypeCombo"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "Edition"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "PlacementAlias"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "PlacementDescription"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "PlacementName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "PositionAlias"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "PositionDescription"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "PositionName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "ProductAlias"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "ProductCategory"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "ProductDescription"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "ProductName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "WebCategory"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "AdProduct",
+    "field": "Zone"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "ADVERTISER_ACCOUNTID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_AccountNumber_AdBase"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_AGENCYFLAG"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_BookingStatusCode"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_CCHECKINVOICEONLY"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_COMMISSIONFLAG"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_COMMISSIONRATE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_COMPANYFLAG"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_COMPANYID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_CONTRACTPRICINGWARNINGFLAG"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_CreationDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_CreditLimit"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_CreditRep_DateAssigned"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_CreditRep_LoginName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_CreditRep_TeamName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_CreditRep_UserID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_CustomerCategory"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_CustomerGroup"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_CustomerPriority"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_CustomerTrade"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_CustomerTradeDescription"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_CustomerType"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_CustomerTypeDescription"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_ESTABLISHDATE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_EXTRADURATION"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_InternalCode"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_LASTMODIFIEDDATE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_LastPaymentAmount"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_LastPaymentDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_LASTSUBSCRIPTIONDATE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_NameFirst"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_NameLast_BSN"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_PayStatusCode"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_PRIMARYADDRESS1"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_PRIMARYCITY"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_PRIMARYCOUNTRYCODE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_PRIMARYEXTENSION"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_PRIMARYSTATEID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_PRIMARYTELEPHONE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_PRIMARYZIPCODE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_PRSALESREP_USERID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_PUBEMAILADDRESS"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_PUBURL"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_PURCHASEORDERREQUIREDFLAG"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_SALESREGIONID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_SALESTEAMID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_SALESTERRITORYID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_SECONDARYSALESPERSONID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_SICName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_SUBSCRIBERFLAG"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_SUBSCRIPTIONNOTE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_TAXSCHEDULEID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_URL"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_WEBLOGINDISABLED"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_WEBLOGINNAME"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Advertiser_Customers",
+    "field": "Advertiser_WEBLOGINURL"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Insertion",
+    "field": "IE_ADNUMBER"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Insertion",
+    "field": "IE_FLIGHTSCHEDULEID_ADBASE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Insertion",
+    "field": "IE_INSERTTIME"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Insertion",
+    "field": "IE_NUMBEROFTEARSHEETS"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Insertion",
+    "field": "IE_PREPRINT_COUNT"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Insertion",
+    "field": "IE_PRPSCHEDULEID_ADBASE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Insertion",
+    "field": "IE_RUNSCHEDULEID_ADBASE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Insertion",
+    "field": "INSERTION_ID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Insertion",
+    "field": "MAPPED_ACCOUNTNUMBER_ADBASE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Insertion",
+    "field": "MAPPED_INSERTDATE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "~AMOUNT_InvoicesAndDebits"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "~AMOUNT_Outstanding"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "~AMOUNT_Paid"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "~AMOUNT_WriteOff"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "ADORDERID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "ADVERTISER_ACCOUNTID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "FLAG_WriteOff"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "fnTransactionsID_AdBase"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "Invoice_ACCOUNTID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "Invoice_ClosedDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "Invoice_CreationDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "Invoice_DueDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "Invoice_EffectiveDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "Invoice_ProcessCompany"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "Invoice_RefNumber"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "Invoice_Status"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "Invoice_TransactionNumber"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceAndDebits",
+    "field": "Invoice_TransactionType"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective__FLAG_PreviousMTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_Day_OfYear"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_DayOfMonth"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_DayOfWeekNumber"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_DayOfWeekText"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_FiscalYear"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_FLAG_FYTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_FLAG_MTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_FLAG_PreviousFYTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_FLAG_PreviousPTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_FLAG_PreviousYTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_FLAG_PTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_FLAG_YTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_HolidayName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_Month"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_Month_OfYear_Number"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_Month_OfYear_Text"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_MonthNumOfDays"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_MonthPlusYear"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_Period_EndDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_Period_OfYear_Number"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_Period_OfYear_Text"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_Period_StartDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_PeriodPlusYear"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_Quarter_Calendar_Text"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_WeekOfYear"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_WeekOfYear_Year"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "InvoiceEffectiveDate",
+    "field": "Invoice_Effective_Year"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "OrderByRepTable",
+    "field": "OrderBy_EmailAddress"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "OrderByRepTable",
+    "field": "OrderBy_RepName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "OrderByRepTable",
+    "field": "OrderBy_SalesRegion"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "OrderByRepTable",
+    "field": "OrderBy_SalesTeam"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "OrderByRepTable",
+    "field": "OrderBy_SalesTerritory"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "OrderByRepTable",
+    "field": "OrderBy_UserNumber"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "PAYER_ACCOUNTID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_AccountNumber_AdBase"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_AGENCYFLAG"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_BookingStatusCode"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CCHECKINVOICEONLY"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_COMMISSIONFLAG"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_COMMISSIONRATE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_COMPANYFLAG"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_COMPANYID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CONTRACTPRICINGWARNINGFLAG"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CreationDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CreditLimit"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CreditRep_DateAssigned"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CreditRep_LoginName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CreditRep_TeamName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CreditRep_UserID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CustomerCategory"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CUSTOMERCATEGORYID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CustomerGroup"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CUSTOMERGROUPID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CustomerPriority"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CustomerTrade"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CustomerTradeDescription"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CustomerType"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_CustomerTypeDescription"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_ESTABLISHDATE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_EXTRADURATION"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_InternalCode"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_LASTMODIFIEDDATE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_LastPaymentAmount"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_LastPaymentDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_LASTSUBSCRIPTIONDATE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_NameFirst"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_NameLast_BSN"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_PayStatusCode"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_PRIMARYADDRESS1"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_PRIMARYCITY"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_PRIMARYCOUNTRYCODE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_PRIMARYEXTENSION"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_PRIMARYSTATEID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_PRIMARYTELEPHONE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_PRIMARYZIPCODE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_PRSALESREP_USERID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_PUBEMAILADDRESS"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_PUBURL"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_PURCHASEORDERREQUIREDFLAG"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_SALESREGIONID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_SALESTEAMID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_SALESTERRITORYID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_SECONDARYSALESPERSONID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_SICName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_SUBSCRIBERFLAG"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_SUBSCRIPTIONNOTE"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_TAXSCHEDULEID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_URL"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_WEBLOGINDISABLED"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_WEBLOGINNAME"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "Payer_Customers",
+    "field": "Payer_WEBLOGINURL"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentApply",
+    "field": "~AMOUNT_AppliedPayment"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentApply",
+    "field": "aoCreditDebitID_AdBase"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentApply",
+    "field": "AppliedDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentApply",
+    "field": "fnTransactionsID_AdBase"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentApply",
+    "field": "LinkKey"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentApply",
+    "field": "PAYAPPLY_TransType"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentApply",
+    "field": "PAYER_ACCOUNTID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentApply",
+    "field": "PAYINV_TransactionNumber"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective__FLAG_PreviousMTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_Day_OfYear"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_DayOfMonth"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_DayOfWeekNumber"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_DayOfWeekText"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_FiscalYear"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_FLAG_FYTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_FLAG_MTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_FLAG_PreviousFYTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_FLAG_PreviousPTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_FLAG_PreviousYTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_FLAG_PTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_FLAG_YTD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_HolidayName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_Month"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_Month_OfYear_Number"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_Month_OfYear_Text"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_MonthNumOfDays"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_MonthPlusYear"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_Period_EndDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_Period_OfYear_Number"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_Period_OfYear_Text"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_Period_StartDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_PeriodPlusYear"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_Quarter_Calendar_Text"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_WeekOfYear"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_WeekOfYear_Year"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_Effective_Year"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentEffectiveDate",
+    "field": "Payment_EffectiveDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "~AMOUNT_BadDebt"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "~AMOUNT_PaymentsAndCredits"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "~AMOUNT_Refund"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "AMOUNTNOTAPPLIED"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "aoCreditDebitID_AdBase"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "Cause"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "CheckNumber"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "FLAG_RefundedTransaction"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "LinkKeyHold"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "PAYCR_ACCOUNTID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "PAYCR_ADORDERID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "PAYCR_ClosedDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "PAYCR_CreationDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "PAYCR_TransactionNumber"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "PAYCR_TransactionType"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "Payment_EffectiveDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "PaymentMethodDescription"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "PaymentMethodName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "PaymentNotes"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "Reason"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PaymentsAndCredits",
+    "field": "REFUNDID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "ADORDERCONFIGID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "CUSTOMERCONFIGID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "EXTERNALTEAMID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "Payer_PRSALESREP_USERID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PRODUCTIONGROUPID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSales_RegionDescription"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSales_RegionName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSales_Team"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSales_TeamDescription"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSales_Territory"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSales_TerritoryDescription"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSalesRep_ADJAUTOAPPROVRD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSalesRep_ADJAUTOAPPROVRDAMT"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSalesRep_ADJAUTOAPPROVRDDBTAMT"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSalesRep_Company"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSalesRep_COMPANYADORDERMETHOD"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSalesRep_EmailAddress"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSalesRep_FirstName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSalesRep_JobTitle"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSalesRep_LastName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSalesRep_LoginName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSalesRep_MANAGERCOMMISSION"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSalesRep_MAXLOCATIONS"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSalesRep_SALESIDENTIFIER"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "PrSalesRep_USERCOMMISSION"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "SALESREGIONID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "SALESTEAMID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "SALESTERRITORYID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "SALESTERRITORYNAMEID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "RefundTable",
+    "field": "REFUNDID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "RefundTable",
+    "field": "RFD_ACCOUNTID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "RefundTable",
+    "field": "RFD_AccountNumber"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "RefundTable",
+    "field": "RFD_ADORDERID"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "RefundTable",
+    "field": "RFD_AMOUNT_Payment"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "RefundTable",
+    "field": "RFD_CreationDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "RefundTable",
+    "field": "RFD_EffectiveDate"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "RefundTable",
+    "field": "RFD_Name1"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "RefundTable",
+    "field": "RFD_Name2"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "RefundTable",
+    "field": "RFD_TransactionNumber"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "RefundTable",
+    "field": "RFD_TransactionType"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "SoldByRepTable",
+    "field": "SoldBy_EmailAddress"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "SoldByRepTable",
+    "field": "SoldBy_RepLoginName"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "SoldByRepTable",
+    "field": "SoldBy_SalesRegion"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "SoldByRepTable",
+    "field": "SoldBy_SalesTeam"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "SoldByRepTable",
+    "field": "SoldBy_SalesTerritory"
+  },
+  {
+    "application": "ARAnalytix",
+    "table": "SoldByRepTable",
+    "field": "SoldBy_UserNumber"
+  },
+  {
+    "application": "",
+    "table": "",
+    "field": ""
+  },
+  {
+    "application": "No selections",
+    "table": "",
+    "field": ""
+  },
+  {
+    "application": "Contract",
+    "table": "AdDetail",
+    "field": "AdDetail_AdCaption"
+  },
+  {
+    "application": "Contract",
+    "table": "AdDetail",
+    "field": "AdDetail_InvoiceText"
+  },
+  {
+    "application": "Contract",
+    "table": "AdDetail",
+    "field": "AdDetail_SortText"
+  },
+  {
+    "application": "Contract",
+    "table": "AdDetail",
+    "field": "PackageName"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "AdCategory"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "AdSubType"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "AdTypeCombo"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "Edition"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "PlacementAlias"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "PlacementDescription"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "PlacementName"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "PositionAlias"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "PositionDescription"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "PositionName"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "ProductAlias"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "ProductCategory"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "ProductDescription"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "ProductName"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "WebCategory"
+  },
+  {
+    "application": "Contract",
+    "table": "AdProduct",
+    "field": "Zone"
+  },
+  {
+    "application": "Contract",
+    "table": "C_OrdererClientTable",
+    "field": "C_ORDERER_ACCOUNTNUMBER_ADBASE"
+  },
+  {
+    "application": "Contract",
+    "table": "C_OrdererClientTable",
+    "field": "C_Orderer_FirstName"
+  },
+  {
+    "application": "Contract",
+    "table": "C_OrdererClientTable",
+    "field": "C_Orderer_LastName"
+  },
+  {
+    "application": "Contract",
+    "table": "C_PayerClientTable",
+    "field": "C_PAYER_ACCOUNTNUMBER_ADBASE"
+  },
+  {
+    "application": "Contract",
+    "table": "C_PayerClientTable",
+    "field": "C_Payer_FirstName"
+  },
+  {
+    "application": "Contract",
+    "table": "C_PayerClientTable",
+    "field": "C_Payer_LastName"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractBoolsTable",
+    "field": "ADVANCELEVELASEARNED_FLAG"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractBoolsTable",
+    "field": "AUTORENEW_FLAG"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractBoolsTable",
+    "field": "COLORONLY_FLAG"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractBoolsTable",
+    "field": "ISSUEREBATE_FLAG"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractBoolsTable",
+    "field": "ISSUESHORTRATE_FLAG"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractBoolsTable",
+    "field": "RATEGUARANTEE_FLAG"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractBoolsTable",
+    "field": "RATEHOLDER_FLAG"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractBoolsTable",
+    "field": "RENEWATEARNEDLEVEL_FLAG"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractFulfillmentTable",
+    "field": "~CONTRACT_AppliedFulfillmentUnits1"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractFulfillmentTable",
+    "field": "~CONTRACT_AppliedFulfillmentUnits2"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractFulfillmentTable",
+    "field": "~CONTRACT_AppliedFulfillmentUnits3"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractFulfillmentTable",
+    "field": "~CONTRACT_AppliedFulfillmentUnits4"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractFulfillmentTable",
+    "field": "~CONTRACT_AppliedFulfillmentUnits5"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractFulfillmentTable",
+    "field": "~CONTRACT_AppliedFulfillmentUnits6"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractFulfillmentTable",
+    "field": "~COUNTER_ContractFulfillment"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractFulfillmentTable",
+    "field": "COFULFILLMENTRECID_ADBASE"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractFulfillmentTable",
+    "field": "CONTRACT_KEY"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractFulfillmentTable",
+    "field": "FulFillment_AdOrderID_AdBase"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractLevels",
+    "field": "ContractLevelInfo_KEY"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractLevels",
+    "field": "Level_ContractLevelDesc"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractLevels",
+    "field": "Level_Description"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractLevels",
+    "field": "Level_Unique"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractLevels",
+    "field": "Level_Var1LowerLimit"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractRep",
+    "field": "Contract_RepFirstName"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractRep",
+    "field": "Contract_RepLastName"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractRep",
+    "field": "Contract_RepLoginName"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractRep",
+    "field": "Contract_RepUserNumber"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractRep",
+    "field": "Contract_SalesRegion"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractRep",
+    "field": "Contract_SalesTeam"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractRep",
+    "field": "Contract_SalesTerritory"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_AmountExpectedToDate"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_ExternalFulfillment1"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_ExternalFulfillment2"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_ExternalFulfillment3"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_ExternalFulfillment4"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_ExternalFulfillment5"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_ExternalFulfillment6"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_FulfillmentGoal1"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_FulfillmentGoal2"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_FulfillmentGoal3"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_FulfillmentGoal4"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_FulfillmentGoal5"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_FulfillmentGoal6"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_PercentExpectedToDate"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_PercentFulfilled1"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_PercentFulfilled2"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_TotalFulfillmentUnits1"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~CONTRACT_TotalFulfillmentUnits2"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "~COUNTER_Contract"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "COMPANY_ID"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "ContractEndDate"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "CONTRACTID_ADBASE"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "ContractLevelInfo_KEY"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "CONTRACTNOTES"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "ContractSignupDate"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "ContractStartDate"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "ContractStatus"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "CONTRACTTEMPLATEID_AdBase"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "CoreContractStatus"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "COREStatusCode"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "CREATEUSERID"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "CurrentLevel"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "DaysInContract"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "DaysUntilExpiration"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "EarlyExpireDate"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "FLAG_ContractExpired"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "FulfillmentStatus"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "GracePeriodDate"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "InstanceName"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "LeveSignedUpTo"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTable",
+    "field": "PercentContractComplete"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "ContractDuration"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "ContractType"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "FulfillmentUnitsDesc1"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "FulfillmentUnitsDesc2"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "FulfillmentUnitsDesc3"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "FulfillmentUnitsDesc4"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "FulfillmentUnitsDesc5"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "FulfillmentUnitsDesc6"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "LinesPerDollar1"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "LinesPerDollar2"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "LinesPerDollar3"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "LinesPerDollar4"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "LinesPerDollar5"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "LinesPerDollar6"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "ReviewPeriod1"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "ReviewPeriod2"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "ReviewPeriod3"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "ReviewPeriod4"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "ReviewPeriod5"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "ReviewPeriod6"
+  },
+  {
+    "application": "Contract",
+    "table": "ContractTemplateTable",
+    "field": "TemplateName"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_CalendarDate"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_CalendarDateWithTime"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_CalendarYear"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_CurrentYear"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_Daily"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_Day_OfWeek_NumberMS"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_Day_OfWeek_TextMS"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfMonth"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfPeriod"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfWeekNumber"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfWeekText"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfYear"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfYearPlusYear"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_DaysAgo"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_FiscalYear"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_HolidayFlag"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_HolidayName"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_Month"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthNumberOfDays"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthNumPlusYear"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthOfYearNumber"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthOfYearText"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthsAgo"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthTextPlusYear"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_PeriodEndDate"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_PeriodOfYearNumber"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_PeriodOfYearText"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_PeriodStartDate"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_PeriodTextPlusYear"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_PreviousYear"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_QuarterCalendarText"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekdayFlag"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekendDate"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekOfYear"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekOfYear_Year"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekOfYearMS"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekOfYearPlusYear"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekPart"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "~COUNT_Preprint"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "~COUNTER_Insertion"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "~SIZE_AdDepth"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "~SIZE_AdDepthAgates"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "~SIZE_AdDepthInches"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "~SIZE_AdDepthMillimeters"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "~SIZE_AdWidth"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "~SIZE_ColumnAgates"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "~SIZE_ColumnInches"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "~SIZE_ColumnMillimeters"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "~SIZE_NumberOfColumns"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "~SIZE_NumberOfLines"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "ADORDERID_ADBASE"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "ADORDERNUMBER"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "AdSize_Verbose"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "ADTYPE_UNITMEASURE"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "AgateLineDef"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "Combo_RunScheduleID"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "CONTRACT_KEY"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "Flag_FulfillsContract"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "Insertion_AdNumber"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "JointAdNumber"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "PRPSCHEDULEID_ADBASE"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "REVENUE"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "RUNSCHEDULEID_ADBASE"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "UserDefinedReportSize"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "UserDefinedUnitName"
+  },
+  {
+    "application": "Contract",
+    "table": "Insertion",
+    "field": "WordCount"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "~AMOUNT_AdInsertCharge"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "~AMOUNT_ColorItem"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "~AMOUNT_Discount"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "~AMOUNT_MaterialItem"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "~AMOUNT_Premium"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "~AMOUNT_PreprintAdInsert"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "~AMOUNT_Revenue"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "~AMOUNT_TypographicalItem"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "ChargeCategory"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "ChargeSubCategory"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "CHARGESUMMARY_KEY"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "ChargeType"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "CustBucketKey"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "DetailChargeType"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "INSERTCHARGESUMMARY_ID"
+  },
+  {
+    "application": "Contract",
+    "table": "InsertionRevenueTable",
+    "field": "Main_InvoiceNumber"
+  },
+  {
+    "application": "Contract",
+    "table": "OrderRateReceived",
+    "field": "CONTRACTID_ADBASE"
+  },
+  {
+    "application": "Contract",
+    "table": "OrderRateReceived",
+    "field": "Core_AdOrderID"
+  },
+  {
+    "application": "Contract",
+    "table": "OrderRateReceived",
+    "field": "Core_RunScheduleID"
+  },
+  {
+    "application": "Contract",
+    "table": "OrderRateReceived",
+    "field": "OrderRateRevenue"
+  },
+  {
+    "application": "Contract",
+    "table": "PercentTable",
+    "field": "Percent"
+  },
+  {
+    "application": "Contract",
+    "table": "PercentTable",
+    "field": "PercentContractComplete"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_AccountNumber_AdBase"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_CustomerCategory"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_CustomerGroup"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_CustomerPriority"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_CustomerStatus"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_CustomerTrade"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_CustomerType_Client"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_FirstName"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_Flag_IsAgency"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_NameLast_BSN"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_PrimaryPhone"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_PrimaryPhoneExtension"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_SalesRegion_Client"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_SalesTerritory_Client"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_SecondaryPhone"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererClientTable",
+    "field": "PrimaryOrderer_SecondaryPhoneExtension"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererSalesRepTable",
+    "field": "PrimaryOrderer_PrimaryRep_LoginName"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererSalesRepTable",
+    "field": "PrimaryOrderer_PrimaryRep_SalesRegion"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererSalesRepTable",
+    "field": "PrimaryOrderer_PrimaryRep_SalesTeam"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererSalesRepTable",
+    "field": "PrimaryOrderer_PrimaryRep_SalesTerritory"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryOrdererSalesRepTable",
+    "field": "PrimaryOrderer_PrimaryRep_UserNumber"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_AccountNumber_AdBase"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_CustomerCategory"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_CustomerGroup"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_CustomerPriority"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_CustomerStatus"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_CustomerTrade"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_CustomerType_Client"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_FirstName"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_Flag_IsAgency"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_NameLast_BSN"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_PrimaryPhone"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_PrimaryPhoneExtension"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_SalesRegion_Client"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_SalesTerritory_Client"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_SecondaryPhone"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PrimaryPayer_SecondaryPhoneExtension"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerClientTable",
+    "field": "PRIMARYSALESREP_USER_ID"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerSalesRepTable",
+    "field": "PrimaryPayer_PrimaryRep_LoginName"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerSalesRepTable",
+    "field": "PrimaryPayer_PrimaryRep_SalesRegion"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerSalesRepTable",
+    "field": "PrimaryPayer_PrimaryRep_SalesTeam"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerSalesRepTable",
+    "field": "PrimaryPayer_PrimaryRep_SalesTerritory"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerSalesRepTable",
+    "field": "PrimaryPayer_PrimaryRep_UserNumber"
+  },
+  {
+    "application": "Contract",
+    "table": "PrimaryPayerSalesRepTable",
+    "field": "PRIMARYSALESREP_USER_ID"
+  },
+  {
+    "application": "Contract",
+    "table": "SalesRepCompanyTable",
+    "field": "SoldBy_SalesRep_CompanyCity"
+  },
+  {
+    "application": "Contract",
+    "table": "SalesRepCompanyTable",
+    "field": "SoldBy_SalesRep_CompanyCode"
+  },
+  {
+    "application": "Contract",
+    "table": "SalesRepCompanyTable",
+    "field": "SoldBy_SalesRep_CompanyDesc"
+  },
+  {
+    "application": "Contract",
+    "table": "SalesRepCompanyTable",
+    "field": "SoldBy_SalesRep_CompanyName"
+  },
+  {
+    "application": "Contract",
+    "table": "SalesRepCompanyTable",
+    "field": "SoldBy_SalesRep_CompanyPrimaryFlag"
+  },
+  {
+    "application": "Contract",
+    "table": "SelectYear",
+    "field": "YearComparision"
+  },
+  {
+    "application": "Contract",
+    "table": "SoldBy_SalesRep",
+    "field": "SoldBy_RepFirstName"
+  },
+  {
+    "application": "Contract",
+    "table": "SoldBy_SalesRep",
+    "field": "SoldBy_RepLastName"
+  },
+  {
+    "application": "Contract",
+    "table": "SoldBy_SalesRep",
+    "field": "SoldBy_RepLoginName"
+  },
+  {
+    "application": "Contract",
+    "table": "SoldBy_SalesRep",
+    "field": "SoldBy_RepUserNumber"
+  },
+  {
+    "application": "Contract",
+    "table": "SoldBy_SalesRep",
+    "field": "SoldBy_SalesRegion"
+  },
+  {
+    "application": "Contract",
+    "table": "SoldBy_SalesRep",
+    "field": "SoldBy_SalesTeam"
+  },
+  {
+    "application": "Contract",
+    "table": "SoldBy_SalesRep",
+    "field": "SoldBy_SalesTerritory"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "NumBoldLines"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "NumBoldWords"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "NumCenteredLines"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "NumEmailAddress"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "NumGraphics"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "NumItalicLines"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "NumItalicWords"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "NumRules"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "NumUnderLinedWords"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "NumUnderlineLines"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "NumURL"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "PointSize6To7"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "PointSize7To8"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "PointSize8To10"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "PointSize10To12"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "PointSize12To16"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "PointSize16To20"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "PointSize20To24"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "PointSizeGreaterThan24"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "PointSizeTo6"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "Preprint_Color"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "Preprint_Location"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "Preprint_PageCount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "Preprint_Paper"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "Preprint_Sides"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "Preprint_Weight"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdContent",
+    "field": "TotalGraphicDepth"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdDetail",
+    "field": "AdCaption"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdDetail",
+    "field": "AdSource_AdDetail"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdDetail",
+    "field": "ColorCount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdDetail",
+    "field": "ColorName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdDetail",
+    "field": "ColorType"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdDetail",
+    "field": "CustomerType_AdDetail"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdDetail",
+    "field": "GroupBuyName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdDetail",
+    "field": "InvoiceText_AdDetail"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdDetail",
+    "field": "PackageName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdDetail",
+    "field": "SchedAttributeName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdDetail",
+    "field": "SortText"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdInsertBools",
+    "field": "Flag_AdVerified"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdInsertBools",
+    "field": "Flag_HasBackground"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdInsertBools",
+    "field": "Flag_HasBorder"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdInsertBools",
+    "field": "Flag_IsCouponAd"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdInsertBools",
+    "field": "Flag_IsDoubleTruck"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdInsertBools",
+    "field": "Flag_IsPreprint"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdInsertBools",
+    "field": "Flag_IsPublished"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdInsertBools",
+    "field": "Flag_IsReversed"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdInsertBools",
+    "field": "Flag_IsStandby"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdInsertBools",
+    "field": "Flag_IsTillForbid"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdInsertBools",
+    "field": "Flag_OnlineProduct"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdInsertBools",
+    "field": "Flag_ProdRelease"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdInsertBools",
+    "field": "Flag_RateOverride"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdInsertBools",
+    "field": "Flag_SortTextOverride"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~COUNTER_AdOrder"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_AdAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_AGYCommissionAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_CNTAdjustmentAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_ColorAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_CreditDebitAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_DiscountAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_Insertions"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_MaterialAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_NetAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_PremiumAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_PrePrintAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_RoundingAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_SpecialDiscount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_SpecialPremium"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_TaxAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "~TOTAL_TypoGraphicalAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "ADORDERNUMBER"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "MAPPED_LASTINSERT_DATE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "PONumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrder",
+    "field": "PriceRangeName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrderBools",
+    "field": "Flag_DoNotBill"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrderBools",
+    "field": "Flag_DoNotPaginate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrderBools",
+    "field": "Flag_DoNotProduce"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrderBools",
+    "field": "Flag_IsQuote"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdOrderStatus",
+    "field": "ORDERSTATUS"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "AdCategory"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "AdSubType"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "AdTypeCombo"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "Edition"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "PlacementAlias"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "PlacementDescription"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "PlacementName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "PositionAlias"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "PositionDescription"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "PositionName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "ProductAlias"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "ProductCategory"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "ProductDescription"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "ProductName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "WebCategory"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdProduct",
+    "field": "Zone"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdPromotion",
+    "field": "PromotionDescription"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "AdPromotion",
+    "field": "PromotionName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "bcChannel",
+    "field": "bcChannel_CHANNELID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "bcChannel",
+    "field": "bcChannel_DayPart"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "bcChannel",
+    "field": "bcChannel_DAYPARTID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "bcChannel",
+    "field": "bcChannel_Identifier"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "bcChannel",
+    "field": "bcChannel_Name"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "bcChannel",
+    "field": "bcChannel_Position"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "bcChannel",
+    "field": "bcChannel_POSITIONID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "bcChannel",
+    "field": "bcChannel_Program"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "bcChannel",
+    "field": "bcChannel_PROGRAMID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "bcChannel",
+    "field": "bcChannel_Zone"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "bcChannel",
+    "field": "bcChannel_ZONEID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "bcSpot",
+    "field": "bcSpot_DurationName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "bcSpot",
+    "field": "bcSpot_Group"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "bcSpot",
+    "field": "bcSpot_SPOTID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "bcSpot",
+    "field": "bcSpot_Type"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CauseReason",
+    "field": "CauseName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CauseReason",
+    "field": "ReasonName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Company",
+    "field": "CompanyAddress"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Company",
+    "field": "CompanyCity"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Company",
+    "field": "CompanyName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Company",
+    "field": "CompanyState"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Contact",
+    "field": "AccountNumber_AdBase"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Contact",
+    "field": "ContactBirthday"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Contact",
+    "field": "ContactCellPhone"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Contact",
+    "field": "ContactEmailAddress"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Contact",
+    "field": "ContactFax"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Contact",
+    "field": "ContactFirstName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Contact",
+    "field": "ContactLastName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Contact",
+    "field": "ContactPrimaryExtension"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Contact",
+    "field": "ContactPrimaryTelephone"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Contact",
+    "field": "ContactSex"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Contact",
+    "field": "ContactTitle"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ContractDetails",
+    "field": "Contract_CurrentLevel"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ContractDetails",
+    "field": "Contract_FulfillmentStatus"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ContractDetails",
+    "field": "Contract_InstanceName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ContractDetails",
+    "field": "CONTRACT_KEY"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ContractDetails",
+    "field": "Contract_LeveSignedUpTo"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ContractDetails",
+    "field": "CONTRACTID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ContractDetails",
+    "field": "ContractStatus"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_CalendarDateWithTime"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_CalendarYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_CurrentYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_DayOfMonth"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_DayOfPeriod"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_DayOfWeekNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_DayOfWeekText"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_DayOfYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_DayOfYearPlusYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_DaysAgo"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_FiscalYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_HolidayFlag"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_HolidayName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_Month"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_MonthNumberOfDays"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_MonthNumPlusYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_MonthOfYearNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_MonthOfYearText"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_MonthsAgo"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_MonthTextPlusYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_PeriodEndDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_PeriodOfYearNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_PeriodOfYearText"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_PeriodStartDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_PeriodTextPlusYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_PreviousYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_QuarterCalendarText"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_WeekdayFlag"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_WeekendDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_WeekOfYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "Create_WeekOfYearPlusYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CreateDateTable",
+    "field": "CreateCalendarDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CurrentLocation",
+    "field": "CCOVERCURRENTRECORD_FLAG"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CurrentLocation",
+    "field": "CURRLOCATION_ADDRESS1"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CurrentLocation",
+    "field": "CURRLOCATION_ADDRESS2"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CurrentLocation",
+    "field": "CURRLOCATION_ADDRESS3"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CurrentLocation",
+    "field": "CURRLOCATION_CITY"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CurrentLocation",
+    "field": "CURRLOCATION_COUNTRY"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CurrentLocation",
+    "field": "CURRLOCATION_COUNTY"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CurrentLocation",
+    "field": "CURRLOCATION_STATE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CurrentLocation",
+    "field": "CURRLOCATION_ZIP4"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "CurrentLocation",
+    "field": "CURRLOCATION_ZIPCODE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalBillingCounts",
+    "field": "AOINBILLINGCOUNTID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalBillingCounts",
+    "field": "AOINFLIGHTGROUPID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalBillingCounts",
+    "field": "DGMedia_BillingChoice"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalBillingCounts",
+    "field": "DGMedia_DeliveredCount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalBillingCounts",
+    "field": "DGMedia_InBillingPeriodEnd"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalBillingCounts",
+    "field": "DGMedia_InBillingPeriodStart"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalBillingCounts",
+    "field": "DGMedia_ProjectedCount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaCampaign",
+    "field": "AOINCAMPAIGNID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaCampaign",
+    "field": "CAMPAIGNCATID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaCampaign",
+    "field": "CAMPAIGNTYPEID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_CampaignCategory"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_CampaignEndDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_CampaignName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_CampaignNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_CampaignStartDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_CampaignType"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_Completion"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_DailyDeliveryRate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_PriorityLevel"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_Reach"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_ViewType"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_Weight"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaFlight",
+    "field": "AOINFLIGHTGROUPID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaFlight",
+    "field": "AOINFLIGHTID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_FlightEndDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_FlightGroupName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_FlightInvoiceNote"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_FlightLengthInDays"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_FlightStartDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_ManualRateFlag"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_NetworkName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_Page"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_QuantityRequested"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_Section"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_Site"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_UnitOfRate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_UnitPrice"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaUnit",
+    "field": "DGMedia_Height"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaUnit",
+    "field": "DGMedia_MaxFileSize"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaUnit",
+    "field": "DGMedia_UnitName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaUnit",
+    "field": "DGMedia_Width"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "DigitalMediaUnit",
+    "field": "INCAMPAIGNUNITID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "FieldedData",
+    "field": "FieldedData_Make1"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "FieldedData",
+    "field": "FieldedData_Year"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "FieldedData",
+    "field": "RUNSCHEDULEID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "GLAccounts",
+    "field": "GLName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "GLAccounts",
+    "field": "GLNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_CalendarDateWithTime"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_CalendarYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_CurrentYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_Daily"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_Day_OfWeek_NumberMS"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_Day_OfWeek_TextMS"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfMonth"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfPeriod"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfWeekNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfWeekText"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfYearPlusYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_DaysAgo"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_FiscalYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_FLAG_FYTD"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_FLAG_MTD"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_FLAG_PreviousFYTD"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_FLAG_PreviousMTD"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_FLAG_PreviousPTD"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_FLAG_PreviousYTD"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_FLAG_PTD"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_FLAG_YTD"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_HolidayFlag"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_HolidayName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_Month"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthNumberOfDays"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthNumPlusYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthOfYearNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthOfYearText"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthsAgo"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthTextPlusYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_PeriodEndDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_PeriodOfYearNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_PeriodOfYearText"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_PeriodStartDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_PeriodTextPlusYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_PreviousYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_QuarterCalendarText"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekdayFlag"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekEnd"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekendDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekOfYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekOfYear_Year"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekOfYearMS"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekOfYearPlusYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekPart"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekStart"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertDateTable",
+    "field": "InsertCalendarDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~COUNT_Preprint"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~COUNTER_Insertion"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~PREPRINT_Count"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~PREPRINT_Count_Expected"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~PREPRINT_Dealers_Count"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~PREPRINT_DirectMail_Count"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~PREPRINT_NonSubs_Count"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~PREPRINT_Subs_Count"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~SIZE_AdDepth"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~SIZE_AdDepthAgates"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~SIZE_AdDepthInches"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~SIZE_AdDepthMillimeters"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~SIZE_AdWidth"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~SIZE_ColumnAgates"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~SIZE_ColumnInches"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~SIZE_ColumnMillimeters"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~SIZE_NumberOfColumns"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~SIZE_NumberOfLines"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "~SIZE_SAU_ColumnInches"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "ACTIVEACCOUNT_KEY"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "AdNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "ADORDERID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "ADORDERID_INSERTPRODUCT_KEY"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "AdSize_Verbose"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "ADTYPE_UNITMEASURE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "AgateLineDef"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "AGENCY_CLIENT_NOTUSED"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "BCRUNSCHEDULEID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "BCSPOTCOUNT"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "BCSPOTCOUNTRAN"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "BIGLINK_KEY"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "CONTRACT_KEY"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "DGMedia_DailyQuantityRequested"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "DIGITALMEDIAQTYDELIVERED"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "DisplaySize"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "Flag_IsInternetTabAd"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "FLIGHTSCHEDULEID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "INSERTTIME"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "JointAdNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "LINAGE_ADTYPEUNITMEASURE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "LINAGE_LABEL_ADTYPEUNITMEASURE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "MAPPED_INSERTDATE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "NumberOfTearsheets"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "PRPSCHEDULEID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "REVENUE_WORK"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "RUNSCHEDULEID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "Sundays"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "UserDefinedReportSize"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "UserDefinedUnitName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "Weekdays"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Insertion",
+    "field": "WordCount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "~AMOUNT_AdInsertCharge"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "~AMOUNT_ColorItem"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "~AMOUNT_Discount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "~AMOUNT_InternetCharge"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "~AMOUNT_MaterialItem"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "~AMOUNT_Premium"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "~AMOUNT_PreprintAdInsert"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "~AMOUNT_Revenue"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "~AMOUNT_TypographicalItem"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "ChargeCategory"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "ChargeSubCategory"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "CHARGESUMMARY_KEY"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "ChargeType"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "CustBucketKey"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "DetailChargeType"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "Flag_IsInvoicedAlready"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "INSERTCHARGESUMMARY_ID"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "InsertionRevenue",
+    "field": "Main_InvoiceNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "LayoutInfo",
+    "field": "AdSource"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "LayoutInfo",
+    "field": "EPSPath"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "LayoutInfo",
+    "field": "InsertDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "LayoutInfo",
+    "field": "MastHeadName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "LayoutInfo",
+    "field": "PageNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "LayoutInfo",
+    "field": "Section"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "LayoutInfo",
+    "field": "XPosition"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "LayoutInfo",
+    "field": "YPosition"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "MaterialCharge",
+    "field": "~MaterialAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "MaterialCharge",
+    "field": "~MaterialQuantity"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "MaterialCharge",
+    "field": "~MaterialTotalAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "MaterialCharge",
+    "field": "MaterialName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "MonthYearSelection",
+    "field": "DynamicMonthYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "MonthYearSelection",
+    "field": "DynamicMonthYearPrev"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "ORDERROLE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "OrderRole_Customer_AccountNumber_AdBase"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "OrderRole_Customer_NameFIrst"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "OrderRole_Customer_NameLast_BSN"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "OrderRole_CustomerCategory"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "OrderRole_CustomerGroup"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "OrderRole_CustomerPriority"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "OrderRole_CustomerStatus"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "OrderRole_CustomerTrade"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "OrderRole_CustomerType"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "OrderRole_Description"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "OrderRole_Flag_IsAgency"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "OrderRole_Flag_IsInactive"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "OrderRole_Name"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "ORDERROLESID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderRoles",
+    "field": "ORDERROLESLINKID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderTakerSalesRep",
+    "field": "OrderTaker_EmailAddress"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderTakerSalesRep",
+    "field": "OrderTaker_RepLoginName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderTakerSalesRep",
+    "field": "OrderTaker_RepUserNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderTakerSalesRep",
+    "field": "OrderTaker_SalesRegion"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderTakerSalesRep",
+    "field": "OrderTaker_SalesTeam"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "OrderTakerSalesRep",
+    "field": "OrderTaker_SalesTerritory"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PlacementGrouping",
+    "field": "PlacementGroup"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PlacementGrouping",
+    "field": "PlacementName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_CalendarDateWithTime"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_CalendarYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_CurrentYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_Daily"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_Day_OfWeek_NumberMS"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_Day_OfWeek_TextMS"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_DayOfMonth"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_DayOfPeriod"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_DayOfWeekNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_DayOfWeekText"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_DayOfYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_DayOfYearPlusYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_DaysAgo"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_FiscalYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_HolidayFlag"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_HolidayName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_Month"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_MonthNumberOfDays"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_MonthNumPlusYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_MonthOfYearNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_MonthOfYearText"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_MonthsAgo"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_MonthTextPlusYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_PeriodEndDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_PeriodOfYearNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_PeriodOfYearText"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_PeriodStartDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_PeriodTextPlusYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_PreviousYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_QuarterCalendarText"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_WeekdayFlag"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_WeekEnd"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_WeekendDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_WeekOfYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_WeekOfYearPlusYear"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_WeekPart"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "Posting_WeekStart"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PostingDateTable",
+    "field": "PostingCalendarDate"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrePrint_AdType",
+    "field": "AdType"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrePrint_AdType",
+    "field": "PreprintType"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "AccountNumber_AdBase"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "CustomerCategory"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "CustomerGroup"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "CustomerPriority"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "CustomerStatus"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "CustomerTrade"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "CustomerType_Client"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "Flag_CreditStopped_PrimaryOrderer"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "Flag_InCollections_PrimaryOrderer"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "Flag_IsAgency"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "Flag_IsPrivate_PrimaryOrderer"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "NameFirst"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "NameLast_BSN"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryOrder_Cluster"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryOrder_ClusterCode"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryOrder_ClusterCodeDesc"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryOrder_ClusterDesc"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryOrderer_CreditLimit"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryOrderer_CreditRisk"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryPhone"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryPhoneExtension"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "SalesRegion_Client"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "SalesTerritory_Client"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "SecondaryPhone"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrderer",
+    "field": "SecondaryPhoneExtension"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "Address1"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "Address2"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "Address3"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "City"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "Country"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "County"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "HouseNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "InsertZone"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "Latitude"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "Longitude"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "PostDirection"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "PreDirection"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "SecondaryNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "State"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "StreetName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "StreetSuffix"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "UnitDesig"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "UnitType"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "Zip4"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimaryOrdererLocation",
+    "field": "ZipCode"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "Primary_EmailAddress"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "Primary_RepLoginName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "Primary_RepUserNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "Primary_SalesRegion"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "Primary_SalesTeam"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PrimarySalesRep",
+    "field": "Primary_SalesTerritory"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPBillingCounts",
+    "field": "BILLINGDEALER"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPBillingCounts",
+    "field": "BILLINGDEALEROVRD"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPBillingCounts",
+    "field": "BILLINGMAIL"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPBillingCounts",
+    "field": "BILLINGMAILOVRD"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPBillingCounts",
+    "field": "BILLINGNONSUB"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPBillingCounts",
+    "field": "BILLINGNONSUBOVRD"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPBillingCounts",
+    "field": "BILLINGSUB"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPBillingCounts",
+    "field": "BILLINGSUBOVRD"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPBillingCounts",
+    "field": "PRPSCHEDULEID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPDistributionTable",
+    "field": "DEALERCODEID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPDistributionTable",
+    "field": "DISTCODEID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPDistributionTable",
+    "field": "PRP_DealerCode"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPDistributionTable",
+    "field": "PRP_DealerCount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPDistributionTable",
+    "field": "PRP_DirectMailCount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPDistributionTable",
+    "field": "PRP_DistributionCode"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPDistributionTable",
+    "field": "PRP_NonSubscriberCount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPDistributionTable",
+    "field": "PRP_SubscriberCount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPDistributionTable",
+    "field": "PRP_UnitCode"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPDistributionTable",
+    "field": "PRP_ZoneCode"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPDistributionTable",
+    "field": "UNITCODEID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "PRPDistributionTable",
+    "field": "ZONECODEID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "RateInfo",
+    "field": "RI_RateDesc"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "RateInfo",
+    "field": "RI_RateName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "RateInfo",
+    "field": "RI_TaxSchedDesc"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "RateInfo",
+    "field": "RI_TaxSchedName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Relationships",
+    "field": "AccountNumber_AdBase"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Relationships",
+    "field": "MasterClientAccountNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Relationships",
+    "field": "MasterClientName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Relationships",
+    "field": "RelationshipType"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Relationships",
+    "field": "SlaveClientName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ReportingRelationship",
+    "field": "RR_Level1_Client_ID"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ReportingRelationship",
+    "field": "RR_Level1_CustomerAcctNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ReportingRelationship",
+    "field": "RR_Level1_CustomerName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ReportingRelationship",
+    "field": "RR_Level1_Type_X"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ReportingRelationship",
+    "field": "RR_Level2_Client_ID"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ReportingRelationship",
+    "field": "RR_Level2_CustomerAcctNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ReportingRelationship",
+    "field": "RR_Level2_CustomerName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ReportingRelationship",
+    "field": "RR_Level2_Type_X"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ReportingRelationship",
+    "field": "RR_Level3_Client_ID"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ReportingRelationship",
+    "field": "RR_Level3_CustomerAcctNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ReportingRelationship",
+    "field": "RR_Level3_CustomerName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ReportingRelationship",
+    "field": "RR_Level3_Type_X"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ReportingRelationship",
+    "field": "RR_Parent_CustomerAcctNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ReportingRelationship",
+    "field": "RR_Parent_CustomerName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "ReportingRelationship",
+    "field": "RR_RELATIONSHIPID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "RepPercentage",
+    "field": "RepPercent_Percentage"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "RepPercentage",
+    "field": "RepPercent_SaleRepLoginName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "RR_RevenueLink",
+    "field": "RR_Level"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesComm",
+    "field": "BUSINESSAREAID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesComm",
+    "field": "DEFAULTENTRY"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesComm",
+    "field": "SalesComm_SalesTeam"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesComm",
+    "field": "SalesCommRep_EmailAddress"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesComm",
+    "field": "SalesCommRep_NameFirst"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesComm",
+    "field": "SalesCommRep_NameLast"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesComm",
+    "field": "SalesCommRep_Percentage"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesComm",
+    "field": "SalesCommRep_SalesRegion"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesComm",
+    "field": "SalesCommRep_SalesTerritory"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesComm",
+    "field": "SalesCommRep_UserLoginName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesComm",
+    "field": "SalesCommRep_UserNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesComm",
+    "field": "SalesCommRepBI_SalesTeam"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesComm",
+    "field": "SALESTEAMID_ADBASE"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesComm",
+    "field": "USERENTRY"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesRep",
+    "field": "SoldBy_EmailAddress"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesRep",
+    "field": "SoldBy_RepFirstName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesRep",
+    "field": "SoldBy_RepLastName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesRep",
+    "field": "SoldBy_RepLoginName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesRep",
+    "field": "SoldBy_RepUserNumber"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesRep",
+    "field": "SoldBy_SalesRegion"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesRep",
+    "field": "SoldBy_SalesTeam"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SalesRep",
+    "field": "SoldBy_SalesTerritory"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SICCodes",
+    "field": "SICCode"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SICCodes",
+    "field": "SICDescription"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SoldByRep_Manager",
+    "field": "Manager_RepFirstName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SoldByRep_Manager",
+    "field": "Manager_RepLastName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SoldByRep_Manager",
+    "field": "Manager_RepLoginName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SoldByRep_Manager",
+    "field": "Manager_RepUserNumberm"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SoldByRep_Manager",
+    "field": "Manager_SalesRegion"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SoldByRep_Manager",
+    "field": "Manager_SalesTeam"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "SoldByRep_Manager",
+    "field": "Manager_SalesTerritory"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Specials",
+    "field": "~SpecialsAmount"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Specials",
+    "field": "SpecialDiscountName"
+  },
+  {
+    "application": "AdvertisingAnalytix",
+    "table": "Specials",
+    "field": "SpecialPremiumName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "NumBoldLines"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "NumBoldWords"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "NumCenteredLines"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "NumEmailAddress"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "NumGraphics"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "NumItalicLines"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "NumItalicWords"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "NumRules"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "NumUnderLinedWords"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "NumUnderlineLines"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "NumURL"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "PointSize6To7"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "PointSize7To8"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "PointSize8To10"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "PointSize10To12"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "PointSize12To16"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "PointSize16To20"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "PointSize20To24"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "PointSizeGreaterThan24"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "PointSizeTo6"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "Preprint_Color"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "Preprint_Location"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "Preprint_PageCount"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "Preprint_Paper"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "Preprint_Sides"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "Preprint_Weight"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdContent",
+    "field": "TotalGraphicDepth"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdDetail",
+    "field": "AdDetail_AdCaption"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdDetail",
+    "field": "AdDetail_InvoiceText"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdDetail",
+    "field": "AdDetail_SortText"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdDetail",
+    "field": "PackageName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdInsertBools",
+    "field": "Flag_AdVerified"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdInsertBools",
+    "field": "Flag_HasBackground"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdInsertBools",
+    "field": "Flag_HasBorder"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdInsertBools",
+    "field": "Flag_IsCouponAd"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdInsertBools",
+    "field": "Flag_IsDoubleTruck"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdInsertBools",
+    "field": "Flag_IsPreprint"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdInsertBools",
+    "field": "Flag_IsPublished"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdInsertBools",
+    "field": "Flag_IsReversed"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdInsertBools",
+    "field": "Flag_IsStandby"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdInsertBools",
+    "field": "Flag_IsTillForbid"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdInsertBools",
+    "field": "Flag_OnlineProduct"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdInsertBools",
+    "field": "Flag_ProdRelease"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdInsertBools",
+    "field": "Flag_RateOverride"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdInsertBools",
+    "field": "Flag_SortTextOverride"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "AdCategory"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "AdSubType"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "AdTypeCombo"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "Edition"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "PlacementAlias"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "PlacementDescription"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "PlacementName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "PositionAlias"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "PositionDescription"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "PositionName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "ProductAlias"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "ProductCategory"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "ProductDescription"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "ProductName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "WebCategory"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "AdProduct",
+    "field": "Zone"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CauseReason",
+    "field": "ADJUSTMENTSUBDETAIL"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CauseReason",
+    "field": "CAUSEDESCRIPTION"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CauseReason",
+    "field": "CauseName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CauseReason",
+    "field": "ISADJCOMMISSIONABLE_FLAG"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CauseReason",
+    "field": "ISCAUSECOMMISSIONABLE_FLAG"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CauseReason",
+    "field": "ISREASONCOMMISSIONABLE_FLAG"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CauseReason",
+    "field": "REASONDESCRIPTION"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CauseReason",
+    "field": "ReasonName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "Company",
+    "field": "CompanyAddress"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "Company",
+    "field": "CompanyCity"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "Company",
+    "field": "CompanyName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "Company",
+    "field": "CompanyState"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_CalendarYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_CurrentYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_DayOfMonth"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_DayOfPeriod"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_DayOfWeekNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_DayOfWeekText"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_DayOfYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_DayOfYearPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_DaysAgo"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_DayText_Date"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_FiscalYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_FLAG_MTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_FLAG_PreviousMTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_FLAG_PreviousPTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_FLAG_PreviousYTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_FLAG_PTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_FLAG_YTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_HolidayFlag"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_HolidayName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_Month"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_MonthNumberOfDays"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_MonthNumPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_MonthOfYearNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_MonthOfYearText"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_MonthsAgo"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_MonthTextPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_PeriodEndDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_PeriodOfYearNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_PeriodOfYearText"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_PeriodStartDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_PeriodTextPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_PreviousYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_QuarterCalendarText"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_WeekdayFlag"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_WeekEnd"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_WeekendDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_WeekOfYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_WeekOfYearPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "Create_WeekStart"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "CreateDateTable",
+    "field": "CreateCalendarDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaCampaign",
+    "field": "AOINCAMPAIGNID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaCampaign",
+    "field": "CAMPAIGNCATID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaCampaign",
+    "field": "CAMPAIGNTYPEID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_CampaignCategory"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_CampaignEndDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_CampaignName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_CampaignNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_CampaignStartDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_CampaignType"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_Completion"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_DailyDeliveryRate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_PriorityLevel"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_Reach"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_ViewType"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaCampaign",
+    "field": "DGMedia_Weight"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaFlight",
+    "field": "AOINFLIGHTGROUPID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaFlight",
+    "field": "AOINFLIGHTID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_FlightEndDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_FlightGroupName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_FlightInvoiceNote"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_FlightStartDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_ManualRateFlag"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_NetworkName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_Page"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_QuantityRequested"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_Section"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_Site"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_UnitOfRate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaFlight",
+    "field": "DGMedia_UnitPrice"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaUnit",
+    "field": "DGMedia_Height"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaUnit",
+    "field": "DGMedia_MaxFileSize"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaUnit",
+    "field": "DGMedia_UnitName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaUnit",
+    "field": "DGMedia_Width"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "DigitalMediaUnit",
+    "field": "INCAMPAIGNUNITID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "FlightScheduleTable",
+    "field": "DIGITALMEDIAQTYDELIVERED"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "FlightScheduleTable",
+    "field": "FLIGHTSCHEDULEID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "GL_CustomBuckets",
+    "field": "DM_GLNUMBER"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "GL_CustomBuckets",
+    "field": "Revenue Category"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "GL_CustomBuckets",
+    "field": "Revenue Product"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "GL_CustomBuckets",
+    "field": "vGL_BUCKET_3"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "GL_CustomBuckets",
+    "field": "vGL_BUCKET_4"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "GL_CustomBuckets",
+    "field": "vGL_BUCKET_5"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "GL_CustomBuckets",
+    "field": "vGL_BUCKET_6"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "GLAccounts",
+    "field": "DM_GLNAME"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "GLAccounts",
+    "field": "DM_GLNUMBER"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDate_AsOfCalendar",
+    "field": "Insert_AsOfMonth"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDate_AsOfCalendar",
+    "field": "Insert_AsOfMonthDiff"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDate_AsOfCalendar",
+    "field": "Insert_AsOfYearDiff"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDate_AsOfCalendar",
+    "field": "Insert_MonthNumPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_CalendarDateWithTime"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_CalendarYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_CurrentYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfMonth"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfPeriod"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfWeekNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfWeekText"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_DayOfYearPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_DaysAgo"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_DayText_Date"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_FiscalYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_FLAG_MTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_FLAG_PreviousMTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_FLAG_PreviousPTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_FLAG_PreviousYTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_FLAG_PTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_FLAG_YTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_HolidayFlag"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_HolidayName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_Month"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthNumberOfDays"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthNumPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthOfYearNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthOfYearText"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthsAgo"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_MonthTextPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_PeriodEndDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_PeriodOfYearNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_PeriodOfYearText"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_PeriodStartDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_PeriodTextPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_PreviousYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_QuarterCalendarText"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekdayFlag"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekEnd"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekendDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekOfYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekOfYearPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "Insert_WeekStart"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "InsertDateTable",
+    "field": "InsertCalendarDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "LogosTable",
+    "field": "FLAG_FirstDayLogo"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "LogosTable",
+    "field": "FLAG_LogoPlaceholder"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "LogosTable",
+    "field": "Logo_ExternalName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "LogosTable",
+    "field": "LogoGroupAbbreviation"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "LogosTable",
+    "field": "LogoGroupName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "LogosTable",
+    "field": "LogoName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "NAICS",
+    "field": "NAICCode"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "NAICS",
+    "field": "NAICCombined"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "NAICS",
+    "field": "NAICDescription"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "OrderInfo",
+    "field": "AdOrder_InvoiceText"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "OrderInfo",
+    "field": "ADORDERNUMBER"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "OrderInfo",
+    "field": "OrderInfo_CurrentQueue"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "OrderInfo",
+    "field": "OrderInfo_FirstInsertDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "OrderInfo",
+    "field": "OrderInfo_LastInsertDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "OrderInfo",
+    "field": "OrderInfo_OrderStatus"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "OrderInfo",
+    "field": "OrderInfo_OrderTaker_EmailAddress"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "OrderInfo",
+    "field": "OrderInfo_OrderTaker_Region"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "OrderInfo",
+    "field": "OrderInfo_OrderTaker_Team"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "OrderInfo",
+    "field": "OrderInfo_OrderTaker_Territory"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "OrderInfo",
+    "field": "OrderInfo_OrderTaker_UserLoginName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "OrderInfo",
+    "field": "OrderInfo_OrderTaker_UserNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_CalendarDateWithTime"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_CalendarYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_CurrentYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_DayOfMonth"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_DayOfPeriod"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_DayOfWeekNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_DayOfWeekText"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_DayOfYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_DayOfYearPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_DaysAgo"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "posting_DayText_Date"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_FiscalYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_FLAG_MTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_FLAG_PreviousMTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_FLAG_PreviousPTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_FLAG_PreviousYTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_FLAG_PTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_FLAG_YTD"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_HolidayFlag"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_HolidayName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_Month"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_MonthNumberOfDays"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_MonthNumPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_MonthOfYearNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_MonthOfYearText"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_MonthsAgo"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_MonthTextPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_PeriodEndDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_PeriodOfYearNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_PeriodOfYearText"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_PeriodStartDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_PeriodTextPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_PreviousYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_QuarterCalendarText"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_WeekdayFlag"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_WeekEnd"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_WeekendDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_WeekOfYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_WeekOfYearPlusYear"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "Posting_WeekStart"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PostingDateTable",
+    "field": "PostingCalendarDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "AccountNumber_AdBase"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "CustomerCategory"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "CustomerGroup"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "CustomerPriority"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "CustomerStatus"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "CustomerTrade"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "CustomerType_Client"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "Flag_CreditStopped_PrimaryOrderer"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "Flag_InCollections_PrimaryOrderer"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "Flag_IsAgency"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "Flag_IsPrivate_PrimaryOrderer"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "NameFirst"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "NameLast_BSN"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "ORGANIZATIONID"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryEmail"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryOrder_Cluster"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryOrder_ClusterCode"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryOrder_ClusterCodeDesc"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryOrder_ClusterDesc"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryOrderer_CreationDate"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryOrderer_CreditLimit"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryOrderer_CreditRisk"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryPhone"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "PrimaryPhoneExtension"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "SalesRegion_Client"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "SalesTerritory_Client"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "SecondaryPhone"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrderer",
+    "field": "SecondaryPhoneExtension"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrdererLocation",
+    "field": "ORDERER_Address1"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrdererLocation",
+    "field": "ORDERER_City"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrdererLocation",
+    "field": "ORDERER_Country"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrdererLocation",
+    "field": "ORDERER_County"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrdererLocation",
+    "field": "ORDERER_State"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrdererLocation",
+    "field": "ORDERER_Zip4"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryOrdererLocation",
+    "field": "ORDERER_Zipcode"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "Flag_CreditStopped_PrimaryPayer"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "Flag_InCollections_PrimaryPayer"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_AccountNumber_AdBase"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_CustomerCategory"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_CustomerGroup"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_CustomerPriority"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_CustomerStatus"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_CustomerTrade"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_CustomerType_Client"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_Flag_IsAgency"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_Flag_IsAgencyCustomerCheckbox"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_Flag_IsParent"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_NameLast_BSN"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_PrimaryEmail"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_PrimaryPhone"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_PrimaryPhoneExtension"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_SalesRegion_Client"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_SalesTerritory_Client"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_SecondaryPhone"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PAYER_SecondaryPhoneExtension"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PrimaryPayer_CreditLimit"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayer",
+    "field": "PrimaryPayer_CreditRisk"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayerLocation",
+    "field": "PAYER_Address1"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayerLocation",
+    "field": "PAYER_City"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayerLocation",
+    "field": "PAYER_Country"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayerLocation",
+    "field": "PAYER_County"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayerLocation",
+    "field": "PAYER_State"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayerLocation",
+    "field": "PAYER_Zip4"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimaryPayerLocation",
+    "field": "PAYER_Zipcode"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimarySalesRep",
+    "field": "Primary_COMPANY_ID"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimarySalesRep",
+    "field": "Primary_DivisionName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimarySalesRep",
+    "field": "Primary_EmailAddress"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimarySalesRep",
+    "field": "Primary_RepFirstName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimarySalesRep",
+    "field": "Primary_RepLastName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimarySalesRep",
+    "field": "Primary_RepLoginName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimarySalesRep",
+    "field": "Primary_RepUserNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimarySalesRep",
+    "field": "Primary_SalesIdentifier"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimarySalesRep",
+    "field": "Primary_SalesRegion"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimarySalesRep",
+    "field": "Primary_SalesTeam"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PrimarySalesRep",
+    "field": "Primary_SalesTerritory"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRP_LOGO_Link",
+    "field": "GROUPLOGOS_ID"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRP_LOGO_Link",
+    "field": "GROUPPRPDISTRIBUTION_ID"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRP_LOGO_Link",
+    "field": "INSERTION_ID"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRP_LOGO_Link",
+    "field": "INSERTION_KEY"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRPDistributionTable",
+    "field": "DEALERCODEID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRPDistributionTable",
+    "field": "DISTCODEID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRPDistributionTable",
+    "field": "PRP_DealerCode"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRPDistributionTable",
+    "field": "PRP_DealerCount"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRPDistributionTable",
+    "field": "PRP_DirectMailCount"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRPDistributionTable",
+    "field": "PRP_DistributionCode"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRPDistributionTable",
+    "field": "PRP_NonSubscriberCount"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRPDistributionTable",
+    "field": "PRP_SubscriberCount"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRPDistributionTable",
+    "field": "PRP_UnitCode"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRPDistributionTable",
+    "field": "PRP_ZoneCode"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRPDistributionTable",
+    "field": "UNITCODEID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "PRPDistributionTable",
+    "field": "ZONECODEID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "Relationships",
+    "field": "AccountNumber_AdBase"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "Relationships",
+    "field": "MasterClientAccountNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "Relationships",
+    "field": "MasterClientName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "Relationships",
+    "field": "RelationshipType"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "Relationships",
+    "field": "SlaveClientName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "~ADJ_INV_AMOUNT"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "~CREDIT_AMOUNT"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "~DEBIT_AMOUNT"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "~INVOICE_AMOUNT"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "~SIZE_AdDepth"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "~SIZE_AdDepthAgates"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "~SIZE_AdDepthInches"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "~SIZE_AdDepthMillimeters"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "~SIZE_AdWidth"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "~SIZE_ColumnAgates"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "~SIZE_ColumnInches"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "~SIZE_ColumnMillimeters"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "~SIZE_NumColumns"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "~SIZE_NumLines"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "~SIZE_SAU_ColumnInches"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "ADORDERID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "ADORDERNUMBER"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "AMOUNT"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "COMMISSIONEDREP_NAME"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "FLAG_AdHasColor"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "FLAG_DESTINATION_REBILL"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "FLAG_ISCOOP"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "Flag_IsInternetTabAd"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "FLAG_SOURCE_REBILL"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "FLIGHTSCHEDULEID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "INSERTION_ID_CombinedRev"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "INSERTION_KEY"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "OPPLINK_KEY"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "PickupNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "ProductionMethod"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "PRPSCHEDULEID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "REALIZED"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "REBILLED_DESTINATION_ADORDERNUMBER"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "REBILLED_NEWDATE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "RUNSCHEDULEID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "TRANSACTIONNUMBER"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "TRANSTYPE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "RevenueTable",
+    "field": "UserDefinedUnitName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesComm",
+    "field": "BUSINESSAREAID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesComm",
+    "field": "DEFAULTENTRY"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesComm",
+    "field": "INSERTION_ID"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesComm",
+    "field": "SalesComm_SalesTeam"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesComm",
+    "field": "SalesCommRep_EmailAddress"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesComm",
+    "field": "SalesCommRep_NameFirst"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesComm",
+    "field": "SalesCommRep_NameLast"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesComm",
+    "field": "SalesCommRep_Percentage"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesComm",
+    "field": "SalesCommRep_SalesRegion"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesComm",
+    "field": "SalesCommRep_SalesTerritory"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesComm",
+    "field": "SalesCommRep_UserLoginName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesComm",
+    "field": "SalesCommRep_UserNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesComm",
+    "field": "SALESTEAMID_ADBASE"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesComm",
+    "field": "USERENTRY"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesRep",
+    "field": "SoldBy_COMPANY_ID"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesRep",
+    "field": "SoldBy_DivisionName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesRep",
+    "field": "SoldBy_EmailAddress"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesRep",
+    "field": "SoldBy_RepFirstName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesRep",
+    "field": "SoldBy_RepLastName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesRep",
+    "field": "SoldBy_RepLoginName"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesRep",
+    "field": "SoldBy_RepUserNumber"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesRep",
+    "field": "SoldBy_SalesIdentifier"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesRep",
+    "field": "SoldBy_SalesRegion"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesRep",
+    "field": "SoldBy_SalesTeam"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SalesRep",
+    "field": "SoldBy_SalesTerritory"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SIC",
+    "field": "SICCode"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SIC",
+    "field": "SICCombined"
+  },
+  {
+    "application": "SalesFlash",
+    "table": "SIC",
+    "field": "SICDescription"
+  }
+]

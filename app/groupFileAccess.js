@@ -17,7 +17,7 @@ const readFileAsync = (filename) => {
 };
 
 const GROUPS_FILE = path.join(__dirname, '../', 'qvgroups.json');
-
+const FIELDS_FILE = path.join(__dirname, '../', 'analytixfields.json');
 //-------------------------------
 const readAppNamesAsync = () => {
 	//Thie will return a promise that we can use in a thunk in redux
@@ -38,12 +38,26 @@ const readGroupsForApp = (appName) => {
 	return readFileAsync(GROUPS_FILE)
 		.then(data => {
 			let qvGroups = JSON.parse(data); //convert json to js object
-      let appName = appName.toLowerCase();
+      appName = appName.toLowerCase();
 			let appNameSansSpaces = appName.replace(/\s+/g, '');
       let applicationGroups = qvGroups.filter(qvGroup => qvGroup.application.toLowerCase() === appName);
+			console.log('groupFileAccess.js', applicationGroups);
 			return applicationGroups;
 		}, (err) => {
 			console.log('Error readGroupsForApp Async', err);
+		});
+};
+
+//-------------------------------
+const readAnalytixFields = appName => {
+	return readFileAsync(FIELDS_FILE)
+		.then(data => {
+			const reqAppName = appName.toLowerCase();
+			const fields = JSON.parse(data);
+			const appFields = fields.filter(field => field.application.toLowerCase() === reqAppName);
+			return appFields;
+		}, (err) => {
+			console.log('Error readAnalytixFields Async', err);
 		});
 
 }
@@ -51,7 +65,8 @@ const readGroupsForApp = (appName) => {
 
 module.exports = {
 	readAppNamesAsync: readAppNamesAsync,
-	readGroupsForApp: readGroupsForApp
+	readGroupsForApp: readGroupsForApp,
+	readAnalytixFields: readAnalytixFields
 }
 
 

@@ -31,8 +31,6 @@ const ClearAppStateHOC = (WrappedComp, dispatch) => {
 
 
 const Main = (props) => {
-	 gfa.readAppNamesAsync()
-	 	.then(data => console.log('async return: ', data));
 	//  ipcRenderer.send('request:AppNames');
 	//  ipcRenderer.on('response:AppNames', (event, data) => {
 	// 	 console.log(event);

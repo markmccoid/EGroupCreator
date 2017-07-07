@@ -23516,6 +23516,239 @@ CONTENT CSS START
 /*---------------------
 CONTENT CSS END
 ---------------------*/
+/*---------------------
+Group Display CSS START
+---------------------*/
+.group-cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.content-body-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .content-body-header-container a {
+    margin: 0 30px; }
+
+.content-body-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; }
+  .content-body-search input {
+    margin: 0 30px; }
+
+.content-body-radio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid lightgray;
+  padding: 0 5px;
+  border-radius: 5px; }
+
+/*---------------------
+Group Card CSS START
+---------------------*/
+.gc-container {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 15px;
+  flex-direction: column;
+  height: auto;
+  width: 350px;
+  position: relative;
+  background: linear-gradient(to bottom, #dbe7d0 1%, #e9eae8 100%);
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: .5s; }
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: .5s; }
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.gc-title {
+  font-size: 1.25em;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  text-align: center;
+  background: #f9f9f9;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.gc-title input {
+  margin-bottom: 0; }
+
+.gc-detail-container {
+  padding: 5px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+
+.gc-fields {
+  padding: 5px; }
+
+.gc-adding-field {
+  border: 1px solid #909090;
+  margin: 5px 5px; }
+
+.gc-adding-field a {
+  padding: 2px 5px;
+  height: 100%; }
+
+.gc-adding-field.init a {
+  display: block;
+  width: 100%;
+  margin: 0;
+  text-align: center; }
+
+.gc-adding-field a:hover {
+  background-color: #b9b9b9; }
+
+.gc-detail-child {
+  display: flex;
+  margin: 5px 5px;
+  border: 1px solid #909090; }
+
+.gc-detail-label {
+  font-size: 1.2em;
+  display: inline-block;
+  padding: 0 5px;
+  background: beige;
+  border-right: 1px solid #909090; }
+
+.gc-detail-value {
+  font-size: 1.1em;
+  padding: 5px 5px;
+  background-color: white;
+  width: 100%; }
+
+.gc-detail-value a {
+  padding: 5px 5px; }
+
+.field-item-js input {
+  margin: 0;
+  font-size: 1em; }
+
+.field-item-js a {
+  font-size: 1em;
+  font-weight: normal;
+  padding: 3px 5px; }
+
+.field-item-js a:hover {
+  background-color: #b9b9b9; }
+
+/*START Drag-Drop List CSS */
+.sortable-list {
+  margin: 5px;
+  border: 1px solid #909090;
+  cursor: pointer; }
+
+.sortable-field-container {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 5px 5px 0; }
+
+.sortable-field-values-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #909090;
+  flex-grow: 1; }
+
+.sortable-item {
+  padding: 10px;
+  background-color: white;
+  font-size: 1em; }
+
+.sortable-item textarea {
+  font-size: 1em; }
+
+.sortable-item:first-child {
+  border-bottom: 1px solid #909090; }
+
+.sortable-item a {
+  padding: 3px 5px; }
+
+.sortable-item input {
+  margin: 0; }
+
+.sortable-handle {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 25px;
+  height: auto;
+  padding: 0 40px;
+  background: #a2a2a2 url("/images/3dots.png") no-repeat center;
+  opacity: .75;
+  cursor: row-resize;
+  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black; }
+
+.sort-delete {
+  position: absolute;
+  opacity: 0;
+  padding: 1px 5px 2px 5px;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 50%;
+  left: -10px;
+  top: 5px; }
+
+.sortable-handle:hover .sort-delete {
+  opacity: 1; }
+
+.field-item-js {
+  word-break: break-all; }
+
+/*END Drag-Drop List CSS */
+/*START Hover buttons CSS */
+.hover-buttons {
+  position: absolute;
+  padding: 5px 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  opacity: 0;
+  cursor: pointer;
+  transition-property: opacity;
+  transition-duration: .5s;
+  transition-delay: 0s; }
+
+.close {
+  top: -15px;
+  right: -10px; }
+
+.edit {
+  top: -15px;
+  left: -10px; }
+
+.gc-container:hover .hover-buttons {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-delay: 1s; }
+
+.hover-buttons:hover {
+  background-color: #e87373; }
+
 .content-nav-menu .selected {
   background-color: #6EAF4B;
   color: white;

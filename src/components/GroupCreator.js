@@ -13,7 +13,7 @@ import { startLoadGroups,
 				 startDeleteGroup
 			 } from '../actions';
 
-//import GroupsDisplay from './GroupsDisplay';
+import GroupsDisplay from './GroupsDisplay';
 
 class GroupCreator extends React.Component {
 	constructor(props) {
@@ -22,20 +22,23 @@ class GroupCreator extends React.Component {
 	}
 	 componentDidMount() {
 		//Load the Groups, GroupFields and Analytix fields for the application selected.
+		console.log('GC-appName',this.props.selectedApplication);
 		this.props.startLoadGroups(this.props.selectedApplication);
 		this.props.startLoadGroupFields(this.props.selectedApplication);
 		this.props.startLoadAnalytixFields(this.props.selectedApplication);
-		this.props.setSelectedApplication(this.props.selectedApplication);
+		//this.props.setSelectedApplication(this.props.selectedApplication);
 	}
 
 	componentWillReceiveProps(nextProps) {
 		//This will run when application is changed.
 		//Need to run because the initial componentDidMount only runs when mounting
+
 		if (this.props.selectedApplication !== nextProps.selectedApplication) {
+			console.log('GC-appName-RProps',nextProps.selectedApplication);
 			this.props.startLoadGroups(nextProps.selectedApplication);
 			this.props.startLoadGroupFields(nextProps.selectedApplication);
 			this.props.startLoadAnalytixFields(nextProps.selectedApplication);
-			this.props.setSelectedApplication(nextProps.selectedApplication);
+			//this.props.setSelectedApplication(nextProps.selectedApplication);
 		}
 	}
 	render() {
@@ -51,7 +54,17 @@ class GroupCreator extends React.Component {
 			};
 		}) : [];
 			return (
-				<div>GroupCreator</div>
+				<GroupsDisplay
+					groups={this.props.groups}
+					groupFields={this.props.groupFields}
+					analytixFields={analytixFieldsFormatted}
+					onUpdateGroupFields={this.props.startUpdateGroupFields}
+					onUpdateGroup={this.props.startUpdateGroup}
+					onAddGroup={this.props.startAddGroup}
+					onDeleteGroup={this.props.deleteGroup}
+					user={this.props.user}
+					selectedApplication={currentApplication}
+				/>
 		);
 	}
 }
