@@ -5,7 +5,7 @@ const fs = require('fs');
 const _ = require('lodash');
 
 // make promise version of fs.readFile()
-const readFileAsync = (filename) => {
+const readFilePromise = (filename) => {
     return new Promise((resolve, reject) => {
         fs.readFile(filename, (err, data) => {
             if (err)
@@ -18,10 +18,13 @@ const readFileAsync = (filename) => {
 
 const GROUPS_FILE = path.join(__dirname, '../', 'qvgroups.json');
 const FIELDS_FILE = path.join(__dirname, '../', 'analytixfields.json');
-//-------------------------------
+
+//------------------------------
+//--Return sorted distinct list
+//--of applications in qvGroups.json
 const readAppNamesAsync = () => {
 	//Thie will return a promise that we can use in a thunk in redux
-	return readFileAsync(GROUPS_FILE)
+	return readFilePromise(GROUPS_FILE)
 		.then((data) => {
 			let qvGroups = JSON.parse(data);
 			let applicationList = _.uniq(qvGroups.map(groupObj => groupObj.application));
@@ -32,10 +35,11 @@ const readAppNamesAsync = () => {
 		});
 };
 
-
 //------------------------------
+//--For passed appName, return the groups from
+//--qvgroups.json - [{},{},...]
 const readGroupsForApp = (appName) => {
-	return readFileAsync(GROUPS_FILE)
+	return readFilePromise(GROUPS_FILE)
 		.then(data => {
 			let qvGroups = JSON.parse(data); //convert json to js object
       appName = appName.toLowerCase();
@@ -49,8 +53,10 @@ const readGroupsForApp = (appName) => {
 };
 
 //-------------------------------
+//--For passed appName, return the Analytix fields
+//--from the analytixfields.json - [{},{},...]
 const readAnalytixFields = appName => {
-	return readFileAsync(FIELDS_FILE)
+	return readFilePromise(FIELDS_FILE)
 		.then(data => {
 			const reqAppName = appName.toLowerCase();
 			const fields = JSON.parse(data);
@@ -59,14 +65,66 @@ const readAnalytixFields = appName => {
 		}, (err) => {
 			console.log('Error readAnalytixFields Async', err);
 		});
-
 }
 
+const updateGroup = groupObj => {
+	return readFilePromise(GROUPS_FILE)
+		.then(data => {
+			let groups = JSON.parse(data);
+			//Find the variable to be updated
+			groups.forEach(qvGroup => {
+				if (qvGroup.id === groupObj.id) {
+					qvGroup.application = groupObj.application;
+					qvGroup.groupName = groupObj.groupName;
+					qvGroup.groupType = groupObj.groupType;
+					qvGroup.fields = groupObj.fields;
+					qvGroup.groupNotes = groupObj.groupNotes;
+					qvGroup.modifyDate = groupObj.modifyDate,
+					qvGroup.modifyUser = groupObj.modifyUser;
+				}
+			});
+			//write the variables array back to disk
+			fs.writeFile(GROUPS_FILE, JSON.stringify(groups), (err) => {
+				if (err) {
+					console.log(`Error writing ${GROUPS_FILE} in updateGroup` , err);
+				}
+				console.log(`updateGroup - ${GROUPS_FILE} written successfully`);
+			});
+			return 'updateGroup Completed';
+		}, (err) => {
+			console.log('Error readAnalytixFields Async', err);
+		});
+};
+
+const updateGroupFieldData = (groupId, fieldsArray, modifyUser) => {
+	return readFilePromise(GROUPS_FILE)
+		.then(data => {
+			let groups = JSON.parse(data);
+			groups.forEach(group => {
+				if (group.id === groupId) {
+					group.fields = fieldsArray;
+					group.modifyUser = modifyUser;
+				}
+			});
+			console.log('updateGroupFieldData');
+			fs.writeFile(GROUPS_FILE, JSON.stringify(groups), (err) => {
+				if (err) {
+					console.log(`Error writing ${GROUPS_FILE} in updateGroupFieldData` , err);
+				}
+				console.log(`updateGroupFieldData - ${GROUPS_FILE}-${groupId} written successfully`);
+			});
+			return 'success';
+		}, (err) => {
+			console.log('Error updateGroupFieldData Async', err);
+		});
+};
 
 module.exports = {
 	readAppNamesAsync: readAppNamesAsync,
 	readGroupsForApp: readGroupsForApp,
-	readAnalytixFields: readAnalytixFields
+	readAnalytixFields: readAnalytixFields,
+	updateGroup: updateGroup,
+	updateGroupFieldData: updateGroupFieldData
 }
 
 

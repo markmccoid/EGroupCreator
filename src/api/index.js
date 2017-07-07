@@ -16,10 +16,6 @@ export const createEmptyGroupObj = (appName, user) => {
 	};
 };
 
-export const getApplicationNamesOLD = () => {
-	return axios.get('/api/groups/app')
-		.then(response => response.data)
-};
 //call the read app name function on the main electron process
 export const getApplicationNames = () => {
 	return groupFileAccess.readAppNamesAsync();
@@ -92,20 +88,20 @@ export const getGroupFieldData = appName => {
 
 //--Update the fields of the groupId passed
 export const updateGroupFieldData = (groupId, fieldsArray, modifyUser) => {
-	return axios.put(`/api/groups/${groupId}/fields`, {fields: fieldsArray, modifyUser} )
+	return groupFileAccess.updateGroupFieldData(groupId, fieldsArray, modifyUser)
 		.then(response => {
 			console.log(response);
-			return response.status; //expect 200 for success
+			return response; //expect 200 for success
 		});
 };
 
 //--Update the group based on groupObj.id
 export const updateGroup = groupObj => {
-	return axios.put(`/api/groups/`, groupObj)
+	return groupFileAccess.updateGroup(groupObj)
 		.then(response => {
 			console.log(response);
-			return response.status; //expect 200 for success
-		})
+			return response;
+		});
 };
 //returns an object containing the fields for the passed appName
 export const getAnalytixFields = appName => {
