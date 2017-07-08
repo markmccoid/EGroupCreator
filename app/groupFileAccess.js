@@ -3,6 +3,7 @@
 const path = require('path');
 const fs = require('fs');
 const _ = require('lodash');
+const uuid = require('uuid');
 
 // make promise version of fs.readFile()
 const readFilePromise = (filename) => {
@@ -119,12 +120,64 @@ const updateGroupFieldData = (groupId, fieldsArray, modifyUser) => {
 		});
 };
 
+const addGroup = groupObj => {
+  return readFilePromise(GROUPS_FILE)
+    .then(data => {
+      let groups = JSON.parse(data);
+
+      let newGroup = {
+        id: uuid.v4(),
+        application: groupObj.application,
+        groupName: groupObj.groupName,
+        groupType: groupObj.groupType,
+        groupNotes: groupObj.groupNotes || '',
+        fields: groupObj.fields,
+        createDate: groupObj.createDate,
+        modifyDate: '',
+        createUser: groupObj.createUser,
+        modifyUser: ''
+      };
+      //--add this new variable object too the variables array
+      groups.push(newGroup);
+      //write the variables array back to disk
+      fs.writeFile(GROUPS_FILE, JSON.stringify(groups), err => {
+        if (err) {
+          console.log(`Error in addGroup writing ${GROUPS_FILE}`);
+        }
+        return 'success';
+      });
+      return newGroup;
+    }, (err) => {
+			console.log('Error addGroup Async', err);
+		});
+};
+
+//---------------------------------------------------
+//--Delete the matching group from the qvgroups.json file
+//---------------------------------------------------
+const deleteGroup = groupId => {
+    return readFilePromise(GROUPS_FILE)
+      .then(data => {
+        let groups = JSON.parse(data);
+        let filteredGroups = groups.filter(group => group.id !== groupId)
+        //write the variables array back to disk
+        fs.writeFile(GROUPS_FILE, JSON.stringify(filteredGroups), err => {
+          if (err) {
+            console.log(`Error in deleteGroup writing ${GROUPS_FILE}`);
+          }
+          return 'success';
+        });
+      })
+};
+
 module.exports = {
 	readAppNamesAsync: readAppNamesAsync,
 	readGroupsForApp: readGroupsForApp,
 	readAnalytixFields: readAnalytixFields,
 	updateGroup: updateGroup,
-	updateGroupFieldData: updateGroupFieldData
+	updateGroupFieldData: updateGroupFieldData,
+  addGroup: addGroup,
+  deleteGroup: deleteGroup
 }
 
 

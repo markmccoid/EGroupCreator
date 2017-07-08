@@ -53,9 +53,15 @@ class MainDisplay extends React.Component {
 				</nav>
 				<main className="content-body">
 						{selectedApplication ? null : <h2>Select an Application</h2>  }
-					<GroupCreator
-						selectedApplication={selectedApplication}
-					/>
+    				{this.props.currentPage === 'main' ?
+              <GroupCreator
+      					selectedApplication={selectedApplication}
+      				/>
+              : this.props.currentPage === 'settings' ?
+                <div> SETTINGS </div>
+                :
+                <div> EXPORT </div>
+            }
 						{/*<Route path="/app/:appName" component={GroupCreator} />*/}
 				</main>
 			</div>
@@ -66,6 +72,7 @@ class MainDisplay extends React.Component {
 const mapStateToProps = (state) => {
 	return {
 		user: state.applications.user,
+  	currentPage: state.applications.currentPage,
 		applicationList: state.applications.applicationList || [],
 		selectedApplication: state.applications.selectedApplication || ''
 	}

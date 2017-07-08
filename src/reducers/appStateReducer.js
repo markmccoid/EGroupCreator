@@ -2,7 +2,8 @@ import { LOAD_APPLICATION_LIST,
  				 SET_SELECTED_APPLICATION,
 				 LOAD_ANALYTIX_FIELDS,
 				 CLEAR_APPLICATION_STATE,
-				 SET_USER
+				 SET_USER,
+         SET_CURRENT_PAGE
 			 } from '../actions';
 
 export const appStateReducer = (state = {}, action) => {
@@ -27,6 +28,11 @@ export const appStateReducer = (state = {}, action) => {
 				selectedApplication: '',
 				selectedApplicationFields: []
 			};
+    case SET_CURRENT_PAGE:
+      return {
+        ...state,
+        currentPage: action.currPage
+      };
 		case SET_USER:
 			return {
 				...state,

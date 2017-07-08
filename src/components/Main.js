@@ -12,7 +12,7 @@ import MainDisplay from './MainDisplay';
 // import SettingsContainer from './settings/SettingsContainer';
 
 //import the clearApplicationState action creator
-import { clearApplicationState } from '../actions';
+import { clearApplicationState, setCurrentPage } from '../actions';
 
 //Higher Order Component that will clear application state
 //whenever WrappedComp is mounted.  This ensures that when switching
@@ -38,7 +38,7 @@ const Main = (props) => {
 	//  });
 	return (
 		<div>
-			<Navbar user={props.user}/>
+			<Navbar user={props.user} onSetCurrentPage={props.setCurrentPage}/>
 			<MainDisplay />
 			{/*
 			<Switch>
@@ -51,4 +51,8 @@ const Main = (props) => {
 	);
 };
 
-export default connect(state => ({user: state.applications.user}))(Main);
+export default connect(state => ({
+	user: state.applications.user
+}),{
+	setCurrentPage: setCurrentPage
+})(Main);

@@ -22,13 +22,13 @@ var Navbar = (props) => {
 			<div className="head-col2-container">
 				<ul className="header-menu header-menu-left">
 					<li>
-						<a>Home</a>
+						<a onClick={()=> props.onSetCurrentPage('main')}>Home</a>
 					</li>
 		      <li>
-						<a>Settings</a>
+						<a onClick={()=> props.onSetCurrentPage('settings')}>Settings</a>
 					</li>
 					<li>
-						<a>Export</a>
+						<a onClick={()=> props.onSetCurrentPage('export')}>Export</a>
 					</li>
 				</ul>
 

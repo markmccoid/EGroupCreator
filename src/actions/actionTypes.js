@@ -6,6 +6,8 @@ export const SET_SELECTED_APPLICATION = 'SET_SELECTED_APPLICATION';
 //for the application or groups nodes is left.
 export const CLEAR_APPLICATION_STATE = 'CLEAR_APPLICATION_STATE';
 export const SET_USER = 'SET_USER';
+//sets the current page of application main, settings, or export
+export const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
 
 //-----Group Action Types -----------------------------------------//
 //-Loads the analytix fields for the selected application

@@ -111,19 +111,19 @@ export const getAnalytixFields = appName => {
 
 //--Add a new group to the qvGroups.json file
 export const addGroup = groupObj => {
-	return axios.post(`/api/groups/`, groupObj)
+	console.log(groupObj);
+	return groupFileAccess.addGroup(groupObj)
 		.then(response => {
-			console.log(response);
-			return response.data;
+			return response;
 		})
 }
 
 //--Delete group from the qvGroups.json file based on the group id passed
 export const deleteGroup = groupId => {
-	return axios.delete(`/api/groups/${groupId}`)
+	return groupFileAccess.deleteGroup(groupId)
 		.then(response => {
 			console.log(response);
-			return response.data;
+			return response;
 		})
 }
 

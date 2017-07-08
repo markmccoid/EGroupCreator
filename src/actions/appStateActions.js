@@ -3,7 +3,8 @@ import * as api from '../api';
 import { LOAD_APPLICATION_LIST,
 				 SET_SELECTED_APPLICATION,
 			   CLEAR_APPLICATION_STATE,
-			   SET_USER } from './actionTypes';
+			   SET_USER,
+			   SET_CURRENT_PAGE } from './actionTypes';
 
 //-----------------------------------------------
 export const loadApplicationList = (appList) => {
@@ -37,6 +38,13 @@ export const clearApplicationState = () => {
 	};
 };
 
+//sets the current page of application - main, settings, export
+export const setCurrentPage = (currPage = 'main') => {
+	return {
+		type: SET_CURRENT_PAGE,
+		currPage
+	}
+}
 export const updateUser = (user) => {
 	return {
 		type: SET_USER,

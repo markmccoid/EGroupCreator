@@ -18,7 +18,7 @@ const DragHandle = SortableHandle((props) => {
 			<div>Field</div>
 			<div className="sort-delete"
 				onMouseDown={props.onDeleteField}>
-				<img src="/images/close-x.png" width="10" height="10" />
+				<img src="./images/close-x.png" width="10" height="10" />
 			</div>
 		</div>
 	);

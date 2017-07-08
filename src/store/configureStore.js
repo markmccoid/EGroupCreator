@@ -9,7 +9,7 @@ import freeze from 'redux-freeze';
 
 //Setup the initil redux state
 const INITIAL_STATE = {
-			applications: {user: 'user'},
+			applications: {user: 'user', currentPage: 'main'},
 			groups: {
 					groupsInfo: [],
 					groupFields: {}

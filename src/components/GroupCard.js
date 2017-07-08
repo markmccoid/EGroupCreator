@@ -156,7 +156,7 @@ class GroupCard extends React.Component {
 					className="hover-buttons close"
 					onClick={this.handleDeleteGroup}
 				>
-					<img src="/images/close-x.png" width="16" height="16" />
+					<img src="./images/close-x.png" width="16" height="16" />
 				</div>
 			</div>
 		);
