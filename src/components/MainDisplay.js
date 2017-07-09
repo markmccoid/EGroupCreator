@@ -5,13 +5,15 @@ const { ipcRenderer }  = window.require('electron');
 
 import { createEmptyGroupObj } from '../api';
 import AppSidebar from './AppSidebar';
-//import GroupCreator from './GroupCreator';
+import GroupCreator from './GroupCreator';
+import SettingsContainer from './settings/SettingsContainer';
+import ExportContainer from './export/ExportContainer';
 
 import { startLoadApplicationList,
  				 setSelectedApplication,
 				 startAddGroup
 			 } from '../actions';
-import GroupCreator from './GroupCreator';
+
 
 class MainDisplay extends React.Component {
 	constructor(props) {
@@ -41,31 +43,32 @@ class MainDisplay extends React.Component {
 
 	render() {
 		let selectedApplication = this.props.selectedApplication || '';
-		return (
-			<div className="content-container">
-				<nav className="content-nav">
-					<h5 style={{textAlign: "center"}}>Applications</h5>
-					<AppSidebar
-						applicationList={this.props.applicationList}
-						onLoadApplication={this.handleLoadApplication}
-						selectedApplication={selectedApplication}
-					/>
-				</nav>
-				<main className="content-body">
-						{selectedApplication ? null : <h2>Select an Application</h2>  }
-    				{this.props.currentPage === 'main' ?
-              <GroupCreator
-      					selectedApplication={selectedApplication}
-      				/>
-              : this.props.currentPage === 'settings' ?
-                <div> SETTINGS </div>
-                :
-                <div> EXPORT </div>
-            }
-						{/*<Route path="/app/:appName" component={GroupCreator} />*/}
-				</main>
-			</div>
-		);
+    if (this.props.currentPage === 'main') {
+      return (
+  			<div className="content-container">
+  				<nav className="content-nav">
+  					<h5 style={{textAlign: "center"}}>Applications</h5>
+  					<AppSidebar
+  						applicationList={this.props.applicationList}
+  						onLoadApplication={this.handleLoadApplication}
+  						selectedApplication={selectedApplication}
+  					/>
+  				</nav>
+  				<main className="content-body">
+  						{selectedApplication ? null : <h2>Select an Application</h2>  }
+                <GroupCreator
+        					selectedApplication={selectedApplication}
+        				/>
+  						{/*<Route path="/app/:appName" component={GroupCreator} />*/}
+  				</main>
+  			</div>
+  		);
+    } else if (this.props.currentPage === 'settings') {
+      return <SettingsContainer />;
+    } else {   //must be export
+      return <ExportContainer />;
+    }
+
 }
 };
 
