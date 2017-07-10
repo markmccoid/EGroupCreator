@@ -1,6 +1,6 @@
 const path = require('path');
 const electron = require('electron');
-const { app, BrowserWindow, ipcMain } = electron;
+const { app, BrowserWindow, Menu } = electron;
 const groupFileAccess = require('./app/groupFileAccess');
 
 let mainWindow;
@@ -17,24 +17,76 @@ console.log(process.env.NODE_ENV);
 	}
 
   mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600
+    width: 1080,
+    height: 800,
+		show: false
   });
-
   mainWindow.loadURL(`file://${__dirname}/public/index.html`);
+	//Attach the main Menu
+	const mainMenu = Menu.buildFromTemplate(menuTemplate);
+	Menu.setApplicationMenu(mainMenu);
 
+	if (process.env.NODE_ENV === 'development') {
+		mainWindow.toggleDevTools();
+	}
+	mainWindow.on('ready-to-show', () => {
+		mainWindow.show();
+	})
 });
 
-ipcMain.on('request:AppNames', () => {
-	console.log('request:AppNames received');
-	groupFileAccess.readAppNamesAsync()
-		.then(data => {
-			mainWindow.webContents.send('response:AppNames', data);
-		})
+//-------------
+//-Close process when all windows are closed
+app.on('window-all-closed', function() {
+ if (process.platform != 'darwin') {
+		 app.quit();
+	 }
+});
+
+//------------------------------------------
+const exitAccelerator = process.platform === 'darwin' ? 'Command+Q' : 'Ctrl+Q';
+const devMenu = 	{
+		label: 'Dev',
+		submenu: [
+			{role: 'reload'},
+			{role: 'forcereload'},
+			{role: 'toggledevtools'}
+		]
+	};
+
+let menuTemplate = [
+	{
+		label: 'File',
+		submenu: [
+			{
+				label: 'Quit',
+				accelerator: exitAccelerator,
+				click() {
+					app.quit();
+				}
+			}
+		]
+	}
+];
+
+//Add a 'Dev' menu option if in development mode
+if (process.env.NODE_ENV === 'development') {
+	menuTemplate.push(devMenu);
+} else { menuTemplate.push(devMenu); }
+
+if (process.platform === 'darwin') {
+  menuTemplate.unshift({});
+}
+
+// ipcMain.on('request:AppNames', () => {
+// 	console.log('request:AppNames received');
+// 	groupFileAccess.readAppNamesAsync()
+// 		.then(data => {
+// 			mainWindow.webContents.send('response:AppNames', data);
+// 		})
 	//mainWindow.webContents.send('response:AppNames', groupFileAccess.readAppNames());
 	// fs.readFile(GROUPS_FILE, (err, data) => {
 	// 	console.log(data);
 	// 	mainWindow.webContents.send('response:AppNames', JSON.parse(data));
 	// });
 
-});
+//});

@@ -124,12 +124,11 @@ export const deleteGroup = groupId => {
 		.then(response => {
 			console.log(response);
 			return response;
-		})
-}
+		});
+};
 
 //Returns XML for the Groups of the passed appName (application)
 export const getXMLApplicationVariables = appName => {
-		console.log(`/api/groups/app/${appName}?format=xml`);
-		return axios.get(`/api/groups/app/${appName}?format=xml`)
-			.then(response => response.data);
+		return groupFileAccess.getXMLData(appName)
+			.then(response => response);
 };

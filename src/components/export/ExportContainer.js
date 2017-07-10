@@ -20,7 +20,7 @@ class ExportContainer extends React.Component {
 					<h3>Export XML</h3>
 					<ul className="export-container">
 					{this.state.applicationNames.map((appName) => {
-						return <li><ExportXML key={appName} appName={appName} /></li>
+						return <li key={appName}><ExportXML appName={appName} /></li>
 						})
 					}
 					</ul>

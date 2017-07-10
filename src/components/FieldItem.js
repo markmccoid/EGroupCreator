@@ -8,8 +8,8 @@ const Option = Select.Option;
 
 //Used for regular input and textarea input needs
 const CustomInput = (props) => {
-	//don't want to spread inputType to these components, getting rid of it.
-	let newProps = _.omit(props, 'inputType');
+	//don't want to spread inputType or onHandleSave function to these components, getting rid of it.
+	let newProps = _.omit(props, 'inputType', 'onHandleSave');
 	if (props.inputType === 'textarea') {
 		return (
 			<textarea autoFocus
@@ -23,7 +23,7 @@ const CustomInput = (props) => {
 				onKeyPress={(e) => {
 					if (e.key === 'Enter') {
 						e.preventDefault();
-						this.handleSave();
+						props.onHandleSave();
 					}
 				}}
 			/>
@@ -92,6 +92,7 @@ class FieldItem extends React.Component {
 							value={this.state.fieldValue}
 							onFocus={() => document.getElementById(itemId).select()}
 							onChange={(e) => this.setState({ fieldValue: e.target.value })}
+							onHandleSave={this.handleSave}
 							onBlur={this.cancelEditing}
 							inputType="textarea"
 						/>
@@ -160,6 +161,7 @@ class FieldItem extends React.Component {
 						onFocus={() => document.getElementById(itemId).select()}
 						onChange={(e) => this.setState({ fieldValue: e.target.value })}
 						onBlur={this.cancelEditing}
+						onHandleSave={this.handleSave}
 						inputType={this.props.inputType}
 					/>
 					<Button

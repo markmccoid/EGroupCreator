@@ -10,7 +10,6 @@ import { LOAD_APPLICATION_GROUPS,
 //-----------------------------------------------
 //-LOAD OF GROUPS For an Application
 export const loadGroups = groupsArray => {
-  console.log('groupActions.js', groupsArray);
 	return {
 		type: LOAD_APPLICATION_GROUPS,
 		groupsArray

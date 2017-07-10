@@ -22,7 +22,6 @@ class GroupCreator extends React.Component {
 	}
 	 componentDidMount() {
 		//Load the Groups, GroupFields and Analytix fields for the application selected.
-		console.log('GC-appName',this.props.selectedApplication);
 		this.props.startLoadGroups(this.props.selectedApplication);
 		this.props.startLoadGroupFields(this.props.selectedApplication);
 		this.props.startLoadAnalytixFields(this.props.selectedApplication);
@@ -34,7 +33,6 @@ class GroupCreator extends React.Component {
 		//Need to run because the initial componentDidMount only runs when mounting
 
 		if (this.props.selectedApplication !== nextProps.selectedApplication) {
-			console.log('GC-appName-RProps',nextProps.selectedApplication);
 			this.props.startLoadGroups(nextProps.selectedApplication);
 			this.props.startLoadGroupFields(nextProps.selectedApplication);
 			this.props.startLoadAnalytixFields(nextProps.selectedApplication);
