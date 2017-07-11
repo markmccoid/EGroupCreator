@@ -24,9 +24,7 @@ class AddNewField extends React.Component {
 		//May want to clear label and name.
 		this.setState({ isAdding: false });
 	}
-	componentWillUnmount() {
-		console.log('FieldItem Unmount', this.state.fieldLabel);
-	}
+
 	render() {
 		let stateJSX = <div className="gc-adding-field init">
 											<a

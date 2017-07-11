@@ -23,18 +23,7 @@ class MainDisplay extends React.Component {
 	componentDidMount() {
 		//dispatch action to get the unique application names stored in qvGroups.json
 		this.props.getApplicationNames();
-  //   ipcRenderer.send('request:AppNames');
-  //   ipcRenderer.on('response:AppNames', (event, data) => {
-  //     this.props.loadApplicationList(data);
-	//  });
  }
-  // componentWillReceiveProps(nextProps) {
-	// 	//When component reloads, check location pathname and if we are back to the root
-	// 	//clear the application name as we should be back to no application selected.
-  //     if (nextProps.location.pathname === '/') {
-  //       this.props.setSelectedApplication('');
-  //     }
-  //}
 
 	handleLoadApplication = appName => {
 		//call action to update redux store with clicked on application

@@ -90,7 +90,6 @@ export const getGroupFieldData = appName => {
 export const updateGroupFieldData = (groupId, fieldsArray, modifyUser) => {
 	return groupFileAccess.updateGroupFieldData(groupId, fieldsArray, modifyUser)
 		.then(response => {
-			console.log(response);
 			return response; //expect 200 for success
 		});
 };
@@ -99,7 +98,6 @@ export const updateGroupFieldData = (groupId, fieldsArray, modifyUser) => {
 export const updateGroup = groupObj => {
 	return groupFileAccess.updateGroup(groupObj)
 		.then(response => {
-			console.log(response);
 			return response;
 		});
 };
@@ -111,7 +109,6 @@ export const getAnalytixFields = appName => {
 
 //--Add a new group to the qvGroups.json file
 export const addGroup = groupObj => {
-	console.log(groupObj);
 	return groupFileAccess.addGroup(groupObj)
 		.then(response => {
 			return response;
@@ -122,7 +119,6 @@ export const addGroup = groupObj => {
 export const deleteGroup = groupId => {
 	return groupFileAccess.deleteGroup(groupId)
 		.then(response => {
-			console.log(response);
 			return response;
 		});
 };

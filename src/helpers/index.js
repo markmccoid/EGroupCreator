@@ -65,7 +65,6 @@ export const filterGroups = (groupData, groupFields, searchText, searchBy, filte
 	};
 
 	const searchGroups = (filteredGroupData, reSearchString) => {
-		console.log(filteredGroupData);
 		return filteredGroupData.filter(group => {
 			if (group.groupName) {
 				return group.groupName.toLowerCase().match(reSearchString);
@@ -84,7 +83,6 @@ export const filterGroups = (groupData, groupFields, searchText, searchBy, filte
 		filteredGroupData = filteredGroupData.filter(group => {
 			return group.groupType.toLowerCase() === filterByType;
 		});
-		console.log('filter', filteredGroupData)
 	}
 	//Deal with searchText if passed
 	if (searchText.length > 0) {
@@ -103,39 +101,4 @@ export const filterGroups = (groupData, groupFields, searchText, searchBy, filte
 	} else {
 		return filteredGroupData;
 	}
-
-
-	// //If fieldSearch
-	// if (searchBy === 'searchFields' && searchText.length > 0) {
-	// 	let groupFieldsArray = Object.keys(groupFields).map(groupId => {
-	// 			return groupFields[groupId].map(field => {
-	// 				return { id: groupId, fieldName: field.fieldName };
-	// 			});
-	// 		//return {id: groupId, fieldName: groupFields[groupId].fieldName};
-	// 	});
-	// 	//the above gives us [[obj, obj], [obj,obj, obj],...]  Need to flatten it to a single array of objects
-	// 	groupFieldsArray = _.flatMap(groupFieldsArray, (n) => [...n]);
-	// 	let filteredFields = _.filter(groupFieldsArray, obj => {
-	// 		return obj.fieldName.toLowerCase().match(reSearchString);
-	// 	});
-	// 	//Need to extract groupIds from array of objects
-	// 	let filteredGroupIds = filteredFields.map(field => field.id);
-	// 	//Now loop through the groupData and only return groups with an id that matches one in the filteredGroupIds array
-	// 	filteredGroupData = filteredGroupData.filter(group => {
-	// 		//if the filter returns an array that is not zero length then return true to include that group in results.
-	// 		return filteredGroupIds.filter(groupid => groupid === group.id).length > 0
-	// 	});
-	//
-	// }
-	//filter by searchText
-	// if (searchBy === 'searchGroups' && searchText.length > 0) {
-	//
-	// 	filteredGroupData = filteredGroupData.filter(group => {
-	// 		if (group.groupName) {
-	// 			return group.groupName.toLowerCase().match(reSearchString);
-	// 		}
-	// 	});
-	// }
-	//filter by type
-	//return filteredGroupData;
 };

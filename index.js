@@ -19,7 +19,9 @@ console.log(process.env.NODE_ENV);
   mainWindow = new BrowserWindow({
     width: 1080,
     height: 800,
-		show: false
+		show: false,
+		icon: path.join(__dirname, 'assets/icon.ico'),
+		webPreferences : { backgroundThrottling: false }
   });
   mainWindow.loadURL(`file://${__dirname}/public/index.html`);
 	//Attach the main Menu
@@ -71,7 +73,7 @@ let menuTemplate = [
 //Add a 'Dev' menu option if in development mode
 if (process.env.NODE_ENV === 'development') {
 	menuTemplate.push(devMenu);
-} else { menuTemplate.push(devMenu); }
+}
 
 if (process.platform === 'darwin') {
   menuTemplate.unshift({});
