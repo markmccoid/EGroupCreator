@@ -1,0 +1,35 @@
+@import "base/variables";
+@import '~antd/dist/antd.css';
+
+//foundation
+@import "base/foundation-settings";
+@import "../../node_modules/foundation-sites/scss/foundation";
+@include foundation-everything(true); //telling it we want to use Flexbox mode
+// @include foundation-global-styles;
+// @include foundation-flex-grid;
+// @include foundation-flex-classes;
+// @include foundation-typography;
+// @include foundation-forms;
+// @include foundation-button;
+// @include foundation-button-group;
+// @include foundation-callout;
+// @include foundation-sticky;
+// @include foundation-reveal;
+// @include foundation-switch;
+// @include foundation-table;
+// @include foundation-tabs;
+// @include foundation-thumbnail;
+// @include foundation-title-bar;
+// @include foundation-tooltip;
+// @include foundation-top-bar;
+// @include foundation-visibility-classes;
+// @include foundation-float-classes;
+// components
+@import "base/body";
+@import "components/navbar";
+@import "components/maindisplay";
+@import "components/GroupDisplay";
+@import "components/GroupCard";
+@import "components/AppSidebar";
+// @import "components/ExportContainer";
+// @import "components/SetUser";

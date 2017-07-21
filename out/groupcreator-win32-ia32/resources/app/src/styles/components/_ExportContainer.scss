@@ -1,0 +1,12 @@
+.export-container {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+.export-container li {
+	font-size: 1.2em;
+}
+
+.export-container a {
+	width: 100%
+}
