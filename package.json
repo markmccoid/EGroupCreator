@@ -6,7 +6,7 @@
 	"scripts": {
 		"start": "webpack -w",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "webpack",
+		"build": "webpack -p",
 		"electron": "cross-env NODE_ENV=development electron .",
 		"electronhome": "cross-env NODE_ENV=dev-home electron .",
 		"dev": "set NODE_ENV=development",
