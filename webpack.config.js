@@ -23,13 +23,24 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
         test: /\.css$/
       },
+      {
+      	test: /\.(png|jpg|gif)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192
+            }
+          }
+        ]
+      },
 			{
 				//this will compile any scss files referenced and create a separate css file
 				test: /\.scss$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
           //resolve-url-loader may be chained before sass-loader if necessary
-          use: ['css-loader', 'sass-loader']
+          use: ['css-loader', 'resolve-url-loader', 'sass-loader?sourceMap']
         })
 			}
     ]
